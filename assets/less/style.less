@@ -5,7 +5,7 @@ body {font-family: 'Noto Sans', sans-serif;}
 ul,ol,dl,li {list-style:none;}
 img {vertical-align:top; border:0;}
 input,button {vertical-align:middle;}
-a {text-decoration:none;}
+a {text-decoration:none; color:#5b5b5b;}
 i {font-style:normal;}
 
 /*option*/
@@ -15,13 +15,13 @@ i {font-style:normal;}
 
 /*layout*/
 header {
-  border:#F00 1px solid;
   width:100%;
   height:150px;
   line-height: 150px;
-  background-color: rgba(255,0 ,0,0.4);
-  position:relative;
+  background-color: rgba(255,255,255,0.4);
+  position:fixed;
   z-index: 20000;
+  box-shadow: 0 5px 10px grey;
   .gnb {
     width: 1300px;
     height: 150px;
@@ -29,18 +29,36 @@ header {
     border:#F00 1px solid;
     .logo{
       border:#F00 1px solid;
-      width: 243px;
+      width: 243px;9999999
       height: 60px;
-    }
-    .site_option{
-
     }
     .menu {
       margin: 0 auto;
       li {
         float:left;
         margin:0 35px;
+        a{
+          font-size: 18px;
+          font-weight: 550;
+        }
       }
+    }
+  }
+}
+.intro {
+  position:relative;
+  z-index: 10;
+}
+section {
+  .popular_recipe {
+    width: 100%;
+    height: 1293px;
+    outline:1px #f00 solid;
+    padding-top:90px;
+    text-align: center;
+    span {
+      font-size: 21px;
+      color: #231f20;
     }
   }
 }
