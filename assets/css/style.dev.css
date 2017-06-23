@@ -40,6 +40,7 @@ button {
 /* line 8, assets\less\style.less */
 a {
   text-decoration: none;
+  color: #5b5b5b;
 }
 /* line 9, assets\less\style.less */
 i {
@@ -57,38 +58,144 @@ i {
 /*layout*/
 /* line 17, assets\less\style.less */
 header {
-  border: #F00 1px solid;
   width: 100%;
+<<<<<<< HEAD
   height: 150px;
   line-height: 150px;
+=======
+  height: 120px;
+  line-height: 120px;
+>>>>>>> a616e4df1675d979e7ebc9e0ca3b5e8b2f4e874b
   background-color: rgba(255, 255, 255, 0.4);
   position: fixed;
   z-index: 20000;
+  box-shadow: 0 5px 10px grey;
 }
 /* line 25, assets\less\style.less */
 header .gnb {
   width: 1300px;
-  height: 150px;
+  height: 120px;
   margin: 0 auto;
   border: #F00 1px solid;
 }
 /* line 30, assets\less\style.less */
 header .gnb .logo {
+  width: 244px;
+  height: 60px;
   border: #F00 1px solid;
   width: 243px;
-  height: 60px;
+  9999999height: 60px;
 }
-/* line 38, assets\less\style.less */
+/* line 37, assets\less\style.less */
+header .gnb .site_option {
+  border: #F00 1px solid;
+}
+/* line 40, assets\less\style.less */
 header .gnb .menu {
   margin: 0 auto;
 }
-/* line 40, assets\less\style.less */
+/* line 42, assets\less\style.less */
 header .gnb .menu li {
   float: left;
   margin: 0 35px;
 }
+<<<<<<< HEAD
 /* line 47, assets\less\style.less */
 .main {
   positon: relative;
   z-index: 10;
 }
+=======
+/* line 45, assets\less\style.less */
+header .gnb .menu li a {
+  font-size: 18px;
+  font-weight: 550;
+}
+/* line 53, assets\less\style.less */
+.main {
+  position: relative;
+  z-index: 10;
+}
+/* line 58, assets\less\style.less */
+section .section1 {
+  width: 100%;
+  height: 1250px;
+  padding-top: 90px;
+  text-align: center;
+  background-color: #f4f5f7;
+}
+/* line 64, assets\less\style.less */
+section .section1 span {
+  display: block;
+  color: #868686;
+}
+/* line 68, assets\less\style.less */
+section .section1 span:nth-child(1) {
+  font-size: 21px;
+  color: #231f20;
+}
+/* line 72, assets\less\style.less */
+section .section1 img {
+  margin: 24px 0 27px;
+}
+/* line 74, assets\less\style.less */
+section .section1 .contents1 {
+  position: relative;
+  width: 1350px;
+  height: 891px;
+  margin: 75px auto 0;
+}
+/* line 80, assets\less\style.less */
+section .section1 .contents1 li {
+  background-color: #fff;
+  width: 300px;
+  height: 428px;
+  float: left;
+  margin: 0 33.333px 33.333px 0;
+}
+/* line 86, assets\less\style.less */
+section .section1 .contents1 li img {
+  margin: 0 0 17px;
+  width: 300px;
+  height: 300px;
+}
+/* line 92, assets\less\style.less */
+section .section1 .contents1 li span img {
+  width: 90px;
+  height: 15px;
+  margin: 15px 0 10px;
+}
+/* line 100, assets\less\style.less */
+section .section1 .btn_more {
+  margin: 45px 0;
+}
+/* line 104, assets\less\style.less */
+section .section2 {
+  outline: 1px #f00 solid;
+  width: 100%;
+  height: 602px;
+  padding-top: 90px;
+  text-align: center;
+  background-color: #fff;
+}
+/* line 111, assets\less\style.less */
+section .section2 span {
+  display: block;
+  color: #868686;
+}
+/* line 115, assets\less\style.less */
+section .section2 span:nth-child(1) {
+  font-size: 21px;
+  color: #231f20;
+}
+/* line 119, assets\less\style.less */
+section .section2 img {
+  margin: 24px 0 37px;
+}
+/* line 122, assets\less\style.less */
+section .section2 .contents2 {
+  width: 100%;
+  height: 300px;
+  outline: 1px #f00 solid;
+}
+>>>>>>> a616e4df1675d979e7ebc9e0ca3b5e8b2f4e874b
