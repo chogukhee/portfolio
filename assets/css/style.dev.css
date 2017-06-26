@@ -1,5 +1,96 @@
+/* line 1, assets\less\style.less */
+.main {
+  position: relative;
+  z-index: 10;
+}
+/* line 6, assets\less\style.less */
+section .section1 {
+  width: 100%;
+  height: 1250px;
+  padding-top: 90px;
+  text-align: center;
+  background-color: #f4f5f7;
+}
+/* line 12, assets\less\style.less */
+section .section1 span {
+  display: block;
+  color: #868686;
+}
+/* line 16, assets\less\style.less */
+section .section1 span:nth-child(1) {
+  font-size: 21px;
+  color: #231f20;
+}
+/* line 20, assets\less\style.less */
+section .section1 img {
+  margin: 24px 0 27px;
+}
+/* line 22, assets\less\style.less */
+section .section1 .contents1 {
+  position: relative;
+  width: 1300px;
+  height: 891px;
+  margin: 75px auto 0;
+}
+/* line 28, assets\less\style.less */
+section .section1 .contents1 ul {
+  width: 1350px;
+}
+/* line 30, assets\less\style.less */
+section .section1 .contents1 ul li {
+  background-color: #fff;
+  width: 300px;
+  height: 428px;
+  float: left;
+  margin: 0 33.333px 33.333px 0;
+}
+/* line 36, assets\less\style.less */
+section .section1 .contents1 ul li img {
+  margin: 0 0 13px;
+  width: 300px;
+  height: 300px;
+}
+/* line 42, assets\less\style.less */
+section .section1 .contents1 ul li span img {
+  width: 90px;
+  height: 15px;
+  margin: 15px 0 10px;
+}
+/* line 51, assets\less\style.less */
+section .section1 .btn_more {
+  margin: 45px 0;
+}
+/* line 55, assets\less\style.less */
+section .section2 {
+  outline: 1px #f00 solid;
+  width: 100%;
+  height: 602px;
+  padding-top: 90px;
+  text-align: center;
+  background-color: #fff;
+}
+/* line 62, assets\less\style.less */
+section .section2 span {
+  display: block;
+  color: #868686;
+}
+/* line 66, assets\less\style.less */
+section .section2 span:nth-child(1) {
+  font-size: 21px;
+  color: #231f20;
+}
+/* line 70, assets\less\style.less */
+section .section2 img {
+  margin: 24px 0 37px;
+}
+/* line 73, assets\less\style.less */
+section .section2 .contents2 {
+  width: 100%;
+  height: 300px;
+  outline: 1px #f00 solid;
+}
 /*reset*/
-/* line 3, assets\less\style.less */
+/* line 2, assets\less\recipe.less */
 body,
 html,
 h1,
@@ -16,173 +107,105 @@ p {
   margin: 0;
   padding: 0;
 }
-/* line 4, assets\less\style.less */
+/* line 3, assets\less\recipe.less */
 body {
   font-family: 'Noto Sans', sans-serif;
 }
-/* line 5, assets\less\style.less */
+/* line 4, assets\less\recipe.less */
 ul,
 ol,
 dl,
 li {
   list-style: none;
 }
-/* line 6, assets\less\style.less */
+/* line 5, assets\less\recipe.less */
 img {
   vertical-align: top;
   border: 0;
 }
-/* line 7, assets\less\style.less */
+/* line 6, assets\less\recipe.less */
 input,
 button {
   vertical-align: middle;
 }
-/* line 8, assets\less\style.less */
+/* line 7, assets\less\recipe.less */
 a {
   text-decoration: none;
   color: #5b5b5b;
 }
-/* line 9, assets\less\style.less */
+/* line 8, assets\less\recipe.less */
 i {
   font-style: normal;
 }
 /*option*/
-/* line 13, assets\less\style.less */
+/* line 12, assets\less\recipe.less */
 .fl {
   float: left;
 }
-/* line 14, assets\less\style.less */
+/* line 13, assets\less\recipe.less */
 .fr {
   float: right;
 }
-/*layout*/
-/* line 17, assets\less\style.less */
+/* line 15, assets\less\recipe.less */
 header {
-  width: 100%;
+  width: 1920px;
   height: 120px;
   line-height: 120px;
   background-color: rgba(255, 255, 255, 0.4);
   position: fixed;
+  top: 0;
   z-index: 20000;
-  box-shadow: 0 5px 10px grey;
+  box-shadow: 0 5px 10px #bababa;
 }
-/* line 25, assets\less\style.less */
+/* line 24, assets\less\recipe.less */
 header .gnb {
-  width: 1300px;
+  width: 1240px;
   height: 120px;
   margin: 0 auto;
-  border: #F00 1px solid;
 }
-/* line 30, assets\less\style.less */
+/* line 29, assets\less\recipe.less */
 header .gnb .logo {
-  width: 244px;
-  height: 60px;
-  border: #F00 1px solid;
-  width: 243px;
-  9999999height: 60px;
+  width: 60px;
+  height: 51px;
+  margin: 30px 75px 0 90px;
 }
-/* line 37, assets\less\style.less */
+/* line 34, assets\less\recipe.less */
 header .gnb .site_option {
-  border: #F00 1px solid;
+  margin-top: 47px;
+  width: 168px;
 }
-/* line 40, assets\less\style.less */
+/* line 40, assets\less\recipe.less */
+header .gnb .site_option .login {
+  margin-left: 24px;
+}
+/* line 43, assets\less\recipe.less */
+header .gnb .site_option .sitemap {
+  margin-left: 24px;
+}
+/* line 47, assets\less\recipe.less */
 header .gnb .menu {
+  width: 749.283px;
   margin: 0 auto;
 }
-/* line 42, assets\less\style.less */
+/* line 50, assets\less\recipe.less */
 header .gnb .menu li {
   float: left;
-  margin: 0 35px;
+  margin: 50px 70px 0 0;
 }
-/* line 45, assets\less\style.less */
+/* line 53, assets\less\recipe.less */
 header .gnb .menu li a {
   font-size: 18px;
-  font-weight: 550;
 }
-/* line 53, assets\less\style.less */
-.main {
-  position: relative;
-  z-index: 10;
-}
-/* line 58, assets\less\style.less */
-section .section1 {
-  width: 100%;
-  height: 1250px;
-  padding-top: 90px;
-  text-align: center;
+/*sub*/
+/* line 62, assets\less\recipe.less */
+body {
   background-color: #f4f5f7;
 }
-/* line 64, assets\less\style.less */
-section .section1 span {
-  display: block;
-  color: #868686;
-}
-/* line 68, assets\less\style.less */
-section .section1 span:nth-child(1) {
-  font-size: 21px;
-  color: #231f20;
-}
-/* line 72, assets\less\style.less */
-section .section1 img {
-  margin: 24px 0 27px;
-}
-/* line 74, assets\less\style.less */
-section .section1 .contents1 {
-  position: relative;
-  width: 1350px;
-  height: 891px;
-  margin: 75px auto 0;
-}
-/* line 80, assets\less\style.less */
-section .section1 .contents1 li {
+/* line 64, assets\less\recipe.less */
+body .contents {
+  width: 1240px;
+  height: 3350px;
+  margin: 200px auto;
   background-color: #fff;
-  width: 300px;
-  height: 428px;
-  float: left;
-  margin: 0 33.333px 33.333px 0;
-}
-/* line 86, assets\less\style.less */
-section .section1 .contents1 li img {
-  margin: 0 0 17px;
-  width: 300px;
-  height: 300px;
-}
-/* line 92, assets\less\style.less */
-section .section1 .contents1 li span img {
-  width: 90px;
-  height: 15px;
-  margin: 15px 0 10px;
-}
-/* line 100, assets\less\style.less */
-section .section1 .btn_more {
-  margin: 45px 0;
-}
-/* line 104, assets\less\style.less */
-section .section2 {
-  outline: 1px #f00 solid;
-  width: 100%;
-  height: 602px;
-  padding-top: 90px;
-  text-align: center;
-  background-color: #fff;
-}
-/* line 111, assets\less\style.less */
-section .section2 span {
-  display: block;
-  color: #868686;
-}
-/* line 115, assets\less\style.less */
-section .section2 span:nth-child(1) {
-  font-size: 21px;
-  color: #231f20;
-}
-/* line 119, assets\less\style.less */
-section .section2 img {
-  margin: 24px 0 37px;
-}
-/* line 122, assets\less\style.less */
-section .section2 .contents2 {
-  width: 100%;
-  height: 300px;
-  outline: 1px #f00 solid;
+  border-radius: 7px;
 }
