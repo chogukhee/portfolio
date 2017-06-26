@@ -1,3 +1,110 @@
+/*reset*/
+/* line 2, assets\less\common.less */
+body,
+html,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+dl,
+li,
+p {
+  margin: 0;
+  padding: 0;
+}
+/* line 3, assets\less\common.less */
+body {
+  font-family: 'Noto Sans', sans-serif;
+}
+/* line 4, assets\less\common.less */
+ul,
+ol,
+dl,
+li {
+  list-style: none;
+}
+/* line 5, assets\less\common.less */
+img {
+  vertical-align: top;
+  border: 0;
+}
+/* line 6, assets\less\common.less */
+input,
+button {
+  vertical-align: middle;
+}
+/* line 7, assets\less\common.less */
+a {
+  text-decoration: none;
+  color: #5b5b5b;
+}
+/* line 8, assets\less\common.less */
+i {
+  font-style: normal;
+}
+/*option*/
+/* line 12, assets\less\common.less */
+.fl {
+  float: left;
+}
+/* line 13, assets\less\common.less */
+.fr {
+  float: right;
+}
+/* line 15, assets\less\common.less */
+header {
+  width: 1920px;
+  height: 120px;
+  line-height: 120px;
+  background-color: rgba(255, 255, 255, 0.4);
+  position: fixed;
+  top: 0;
+  z-index: 20000;
+  box-shadow: 0 5px 10px #bababa;
+}
+/* line 24, assets\less\common.less */
+header .gnb {
+  width: 1240px;
+  height: 120px;
+  margin: 0 auto;
+}
+/* line 29, assets\less\common.less */
+header .gnb .logo {
+  width: 60px;
+  height: 51px;
+  margin: 30px 75px 0 90px;
+}
+/* line 34, assets\less\common.less */
+header .gnb .site_option {
+  margin-top: 47px;
+  width: 168px;
+}
+/* line 40, assets\less\common.less */
+header .gnb .site_option .login {
+  margin-left: 24px;
+}
+/* line 43, assets\less\common.less */
+header .gnb .site_option .sitemap {
+  margin-left: 24px;
+}
+/* line 47, assets\less\common.less */
+header .gnb .menu {
+  width: 749.283px;
+  margin: 0 auto;
+}
+/* line 50, assets\less\common.less */
+header .gnb .menu li {
+  float: left;
+  margin: 50px 70px 0 0;
+}
+/* line 53, assets\less\common.less */
+header .gnb .menu li a {
+  font-size: 18px;
+}
 /* line 1, assets\less\style.less */
 .main {
   position: relative;
@@ -89,119 +196,11 @@ section .section2 .contents2 {
   height: 300px;
   outline: 1px #f00 solid;
 }
-/*reset*/
-/* line 2, assets\less\recipe.less */
-body,
-html,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-ul,
-ol,
-dl,
-li,
-p {
-  margin: 0;
-  padding: 0;
-}
-/* line 3, assets\less\recipe.less */
-body {
-  font-family: 'Noto Sans', sans-serif;
-}
-/* line 4, assets\less\recipe.less */
-ul,
-ol,
-dl,
-li {
-  list-style: none;
-}
-/* line 5, assets\less\recipe.less */
-img {
-  vertical-align: top;
-  border: 0;
-}
-/* line 6, assets\less\recipe.less */
-input,
-button {
-  vertical-align: middle;
-}
-/* line 7, assets\less\recipe.less */
-a {
-  text-decoration: none;
-  color: #5b5b5b;
-}
-/* line 8, assets\less\recipe.less */
-i {
-  font-style: normal;
-}
-/*option*/
-/* line 12, assets\less\recipe.less */
-.fl {
-  float: left;
-}
-/* line 13, assets\less\recipe.less */
-.fr {
-  float: right;
-}
-/* line 15, assets\less\recipe.less */
-header {
-  width: 1920px;
-  height: 120px;
-  line-height: 120px;
-  background-color: rgba(255, 255, 255, 0.4);
-  position: fixed;
-  top: 0;
-  z-index: 20000;
-  box-shadow: 0 5px 10px #bababa;
-}
-/* line 24, assets\less\recipe.less */
-header .gnb {
-  width: 1240px;
-  height: 120px;
-  margin: 0 auto;
-}
-/* line 29, assets\less\recipe.less */
-header .gnb .logo {
-  width: 60px;
-  height: 51px;
-  margin: 30px 75px 0 90px;
-}
-/* line 34, assets\less\recipe.less */
-header .gnb .site_option {
-  margin-top: 47px;
-  width: 168px;
-}
-/* line 40, assets\less\recipe.less */
-header .gnb .site_option .login {
-  margin-left: 24px;
-}
-/* line 43, assets\less\recipe.less */
-header .gnb .site_option .sitemap {
-  margin-left: 24px;
-}
-/* line 47, assets\less\recipe.less */
-header .gnb .menu {
-  width: 749.283px;
-  margin: 0 auto;
-}
-/* line 50, assets\less\recipe.less */
-header .gnb .menu li {
-  float: left;
-  margin: 50px 70px 0 0;
-}
-/* line 53, assets\less\recipe.less */
-header .gnb .menu li a {
-  font-size: 18px;
-}
-/*sub*/
-/* line 62, assets\less\recipe.less */
+/* line 1, assets\less\recipe.less */
 body {
   background-color: #f4f5f7;
 }
-/* line 64, assets\less\recipe.less */
+/* line 3, assets\less\recipe.less */
 body .contents {
   width: 1240px;
   height: 3350px;
