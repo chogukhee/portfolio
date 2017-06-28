@@ -1,5 +1,5 @@
 /*reset*/
-/* line 2, assets\less\common.less */
+/* line 3, assets\less\common.less */
 body,
 html,
 h1,
@@ -16,46 +16,46 @@ p {
   margin: 0;
   padding: 0;
 }
-/* line 3, assets\less\common.less */
-body {
-  font-family: 'Noto Sans', sans-serif;
-}
 /* line 4, assets\less\common.less */
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+}
+/* line 5, assets\less\common.less */
 ul,
 ol,
 dl,
 li {
   list-style: none;
 }
-/* line 5, assets\less\common.less */
+/* line 6, assets\less\common.less */
 img {
   vertical-align: top;
   border: 0;
 }
-/* line 6, assets\less\common.less */
+/* line 7, assets\less\common.less */
 input,
 button {
   vertical-align: middle;
 }
-/* line 7, assets\less\common.less */
+/* line 8, assets\less\common.less */
 a {
   text-decoration: none;
   color: #5b5b5b;
 }
-/* line 8, assets\less\common.less */
+/* line 9, assets\less\common.less */
 i {
   font-style: normal;
 }
 /*option*/
-/* line 12, assets\less\common.less */
+/* line 13, assets\less\common.less */
 .fl {
   float: left;
 }
-/* line 13, assets\less\common.less */
+/* line 14, assets\less\common.less */
 .fr {
   float: right;
 }
-/* line 15, assets\less\common.less */
+/* line 16, assets\less\common.less */
 header {
   width: 1920px;
   height: 120px;
@@ -66,42 +66,42 @@ header {
   z-index: 20000;
   box-shadow: 0 5px 10px #bababa;
 }
-/* line 24, assets\less\common.less */
+/* line 25, assets\less\common.less */
 header .gnb {
   width: 1240px;
   height: 120px;
   margin: 0 auto;
 }
-/* line 29, assets\less\common.less */
+/* line 30, assets\less\common.less */
 header .gnb .logo {
   width: 60px;
   height: 51px;
-  margin: 30px 75px 0 90px;
+  margin: 30px 75px 0 0;
 }
-/* line 34, assets\less\common.less */
+/* line 35, assets\less\common.less */
 header .gnb .site_option {
   margin-top: 47px;
   width: 168px;
 }
-/* line 40, assets\less\common.less */
+/* line 41, assets\less\common.less */
 header .gnb .site_option .login {
   margin-left: 24px;
 }
-/* line 43, assets\less\common.less */
+/* line 44, assets\less\common.less */
 header .gnb .site_option .sitemap {
   margin-left: 24px;
 }
-/* line 47, assets\less\common.less */
+/* line 48, assets\less\common.less */
 header .gnb .menu {
-  width: 749.283px;
-  margin: 0 auto;
+  width: 884px;
+  margin-left: 220px;
 }
-/* line 50, assets\less\common.less */
+/* line 51, assets\less\common.less */
 header .gnb .menu li {
   float: left;
   margin: 50px 70px 0 0;
 }
-/* line 53, assets\less\common.less */
+/* line 54, assets\less\common.less */
 header .gnb .menu li a {
   font-size: 18px;
 }
@@ -202,9 +202,66 @@ body {
 }
 /* line 3, assets\less\recipe.less */
 body .contents {
+  text-align: center;
   width: 1240px;
   height: 3350px;
   margin: 200px auto;
   background-color: #fff;
   border-radius: 7px;
+}
+/* line 10, assets\less\recipe.less */
+body .contents .subject {
+  padding: 95px 0 13px;
+}
+/* line 12, assets\less\recipe.less */
+body .contents .subject span {
+  display: block;
+  text-align: center;
+}
+/* line 16, assets\less\recipe.less */
+body .contents .subject span:nth-child(1) {
+  text-transform: capitalize;
+  font-size: 25px;
+  color: #5C5C5C;
+}
+/* line 21, assets\less\recipe.less */
+body .contents .subject span:nth-child(2) {
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #B0B0B0;
+}
+/* line 27, assets\less\recipe.less */
+body .contents .quotation {
+  width: 515px;
+  margin: 0 auto;
+}
+/* line 30, assets\less\recipe.less */
+body .contents .quotation span:nth-child(1) {
+  float: left;
+}
+/* line 33, assets\less\recipe.less */
+body .contents .quotation span:nth-child(2) {
+  float: right;
+}
+/* line 37, assets\less\recipe.less */
+body .contents .txt {
+  color: #838383;
+  overflow: visible;
+  display: block;
+  text-align: center;
+  margin: 20px 0 50px;
+}
+/* line 45, assets\less\recipe.less */
+body .contents .img img {
+  width: 640px;
+  margin-bottom: 58px;
+}
+/* line 50, assets\less\recipe.less */
+body .contents .summary {
+  width: 845px;
+  height: 58px;
+  border-top: 0.25px #A9A8A8 solid;
+  border-bottom: 0.25px #A9A8A8 solid;
+  margin: 0 auto;
+  float: left;
 }
