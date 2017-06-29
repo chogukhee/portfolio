@@ -260,8 +260,66 @@ body .contents .img img {
 body .contents .summary {
   width: 845px;
   height: 58px;
+  line-height: 58px;
   border-top: 0.25px #A9A8A8 solid;
   border-bottom: 0.25px #A9A8A8 solid;
   margin: 0 auto;
-  float: left;
+  float: none;
+}
+/* line 58, assets\less\recipe.less */
+body .contents .summary span {
+  margin-left: 10px;
+  background-image: url(../assets/images/source/bar.png);
+  background-repeat: no-repeat;
+  background-position: 10px center;
+}
+/* line 63, assets\less\recipe.less */
+body .contents .summary span img {
+  vertical-align: middle;
+  margin-left: 5px;
+}
+/* line 69, assets\less\recipe.less */
+body .contents .directions {
+  text-align: left;
+  margin-left: 110px;
+}
+/* line 72, assets\less\recipe.less */
+body .contents .directions p {
+  margin-bottom: 30px;
+}
+/* line 75, assets\less\recipe.less */
+body .contents .directions span:nth-child(1) {
+  display: block;
+  margin: 50px 0 20px;
+  color: #676767;
+  font-size: 14px;
+}
+/* line 80, assets\less\recipe.less */
+body .contents .directions span:nth-child(1) img {
+  margin-right: 10px;
+}
+/* line 84, assets\less\recipe.less */
+body .contents .directions span:nth-child(2) {
+  color: #ABABAB;
+  font-size: 12px;
+}
+/* line 89, assets\less\recipe.less */
+body .contents .steps {
+  text-align: left;
+  margin-left: 110px;
+}
+/* line 92, assets\less\recipe.less */
+body .contents .steps span:nth-child(1) {
+  display: block;
+  margin: 50px 0 20px;
+  color: #676767;
+  font-size: 14px;
+}
+/* line 97, assets\less\recipe.less */
+body .contents .steps span:nth-child(1) img {
+  margin-right: 10px;
+}
+/* line 102, assets\less\recipe.less */
+body .contents .steps .first span {
+  margin: 0 10px 0 0;
 }
