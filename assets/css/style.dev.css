@@ -204,60 +204,80 @@ body {
 body .contents {
   text-align: center;
   width: 1240px;
-  height: 3350px;
+  height: 100%;
   margin: 200px auto;
   background-color: #fff;
   border-radius: 7px;
 }
-/* line 10, assets\less\recipe.less */
-body .contents .subject {
+/* line 11, assets\less\recipe.less */
+body .contents span[class$="_sb"] {
+  color: #676767;
+  font-size: 14px;
+  display: block;
+  margin: 50px 0 20px 110px;
+  text-align: left;
+}
+/* line 17, assets\less\recipe.less */
+body .contents span[class$="_sb"] img {
+  margin-right: 10px;
+}
+/* line 21, assets\less\recipe.less */
+body .contents span[class$="_txt"] {
+  color: #ABABAB;
+  font-size: 12px;
+  text-align: left;
+  display: block;
+  margin-left: 110px;
+}
+/* line 29, assets\less\recipe.less */
+body .contents .top_section .subject {
   padding: 95px 0 13px;
 }
-/* line 12, assets\less\recipe.less */
-body .contents .subject span {
+/* line 31, assets\less\recipe.less */
+body .contents .top_section .subject span {
   display: block;
   text-align: center;
 }
-/* line 16, assets\less\recipe.less */
-body .contents .subject span:nth-child(1) {
+/* line 35, assets\less\recipe.less */
+body .contents .top_section .subject span:nth-child(1) {
   text-transform: capitalize;
   font-size: 25px;
   color: #5C5C5C;
 }
-/* line 21, assets\less\recipe.less */
-body .contents .subject span:nth-child(2) {
+/* line 40, assets\less\recipe.less */
+body .contents .top_section .subject span:nth-child(2) {
   text-transform: uppercase;
   font-size: 14px;
   color: #B0B0B0;
 }
-/* line 27, assets\less\recipe.less */
-body .contents .quotation {
+/* line 46, assets\less\recipe.less */
+body .contents .top_section .quotation {
   width: 515px;
   margin: 0 auto;
 }
-/* line 30, assets\less\recipe.less */
-body .contents .quotation span:nth-child(1) {
+/* line 49, assets\less\recipe.less */
+body .contents .top_section .quotation span:nth-child(1) {
   float: left;
 }
-/* line 33, assets\less\recipe.less */
-body .contents .quotation span:nth-child(2) {
+/* line 52, assets\less\recipe.less */
+body .contents .top_section .quotation span:nth-child(2) {
   float: right;
 }
-/* line 37, assets\less\recipe.less */
-body .contents .txt {
+/* line 56, assets\less\recipe.less */
+body .contents .top_section .txt {
   color: #838383;
   overflow: visible;
   display: block;
   text-align: center;
   margin: 20px 0 50px;
 }
-/* line 45, assets\less\recipe.less */
-body .contents .img img {
+/* line 64, assets\less\recipe.less */
+body .contents .top_section .img img {
   width: 640px;
   margin-bottom: 58px;
 }
-/* line 50, assets\less\recipe.less */
-body .contents .summary {
+/* line 69, assets\less\recipe.less */
+body .contents .top_section .summary {
   width: 845px;
   height: 58px;
   line-height: 58px;
@@ -266,60 +286,67 @@ body .contents .summary {
   margin: 0 auto;
   float: none;
 }
-/* line 58, assets\less\recipe.less */
-body .contents .summary span {
+/* line 77, assets\less\recipe.less */
+body .contents .top_section .summary span {
   margin-left: 10px;
   background-image: url(../assets/images/source/bar.png);
   background-repeat: no-repeat;
   background-position: 10px center;
 }
-/* line 63, assets\less\recipe.less */
-body .contents .summary span img {
+/* line 82, assets\less\recipe.less */
+body .contents .top_section .summary span img {
   vertical-align: middle;
   margin-left: 5px;
 }
-/* line 69, assets\less\recipe.less */
-body .contents .directions {
-  text-align: left;
-  margin-left: 110px;
+/* line 89, assets\less\recipe.less */
+body .contents .left_section {
+  width: 880px;
+  height: 100%;
 }
-/* line 72, assets\less\recipe.less */
-body .contents .directions p {
+/* line 93, assets\less\recipe.less */
+body .contents .left_section .directions p {
   margin-bottom: 30px;
 }
-/* line 75, assets\less\recipe.less */
-body .contents .directions span:nth-child(1) {
-  display: block;
-  margin: 50px 0 20px;
-  color: #676767;
-  font-size: 14px;
+/* line 98, assets\less\recipe.less */
+body .contents .left_section .steps span[class^="step_"] {
+  overflow: hidden;
+  height: 100%;
 }
-/* line 80, assets\less\recipe.less */
-body .contents .directions span:nth-child(1) img {
-  margin-right: 10px;
+/* line 101, assets\less\recipe.less */
+body .contents .left_section .steps span[class^="step_"] p {
+  margin-bottom: 30px;
 }
-/* line 84, assets\less\recipe.less */
-body .contents .directions span:nth-child(2) {
+/* line 105, assets\less\recipe.less */
+body .contents .left_section .steps .step_icon {
+  margin: 0 10px 0 0;
+}
+/* line 108, assets\less\recipe.less */
+body .contents .left_section .steps .step_img {
+  width: 615px;
+  height: 200px;
   color: #ABABAB;
   font-size: 12px;
 }
-/* line 89, assets\less\recipe.less */
-body .contents .steps {
-  text-align: left;
-  margin-left: 110px;
+/* line 114, assets\less\recipe.less */
+body .contents .left_section .steps .step_img img {
+  width: 200px;
+  height: 200px;
+  margin: 0 5px 20px 0;
 }
-/* line 92, assets\less\recipe.less */
-body .contents .steps span:nth-child(1) {
-  display: block;
-  margin: 50px 0 20px;
-  color: #676767;
-  font-size: 14px;
+/* line 121, assets\less\recipe.less */
+body .contents .left_section .tag {
+  clear: both;
 }
-/* line 97, assets\less\recipe.less */
-body .contents .steps span:nth-child(1) img {
-  margin-right: 10px;
+/* line 126, assets\less\recipe.less */
+body .contents .bottom_section .related_recipe {
+  width: 100%;
 }
-/* line 102, assets\less\recipe.less */
-body .contents .steps .first span {
-  margin: 0 10px 0 0;
+/* line 128, assets\less\recipe.less */
+body .contents .bottom_section .related_recipe li {
+  float: left;
+  width: 25%;
+}
+/* line 131, assets\less\recipe.less */
+body .contents .bottom_section .related_recipe li img {
+  width: 100%;
 }

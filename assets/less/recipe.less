@@ -3,108 +3,136 @@ body {
     .contents {
         text-align: center;
         width: 1240px;
-        height: 3350px;
+        // height: 3350px;
+        height: 100%;
         margin: 200px auto;
         background-color: #fff;
         border-radius: 7px;
-        .subject{
-            padding: 95px 0 13px;
-            span{
+        span[class$="_sb"]{
+            color:#676767;
+            font-size: 14px;
+            display: block;
+            margin: 50px 0 20px 110px;
+            text-align: left;
+            img {
+                margin-right: 10px;
+            }
+        }
+        span[class$="_txt"]{
+            color:#ABABAB;
+            font-size: 12px;
+            text-align: left;
+            display: block;
+            margin-left: 110px;
+        }
+        .top_section{
+            .subject{
+                padding: 95px 0 13px;
+                span{
+                    display: block;
+                    text-align: center;
+                }
+                span:nth-child(1){
+                    text-transform: capitalize;
+                    font-size: 25px;
+                    color:#5C5C5C;
+                }
+                span:nth-child(2){
+                    text-transform: uppercase;
+                    font-size: 14px;
+                    color:#B0B0B0;
+                }
+            }
+            .quotation {
+                width: 515px;
+                margin: 0 auto;
+                span:nth-child(1) {
+                    float:left;
+                }
+                span:nth-child(2) {
+                    float:right;
+                }
+            }
+            .txt {
+                color:#838383;
+                overflow: visible;
                 display: block;
                 text-align: center;
+                margin:20px 0 50px;
             }
-            span:nth-child(1){
-                text-transform: capitalize;
-                font-size: 25px;
-                color:#5C5C5C;
-            }
-            span:nth-child(2){
-                text-transform: uppercase;
-                font-size: 14px;
-                color:#B0B0B0;
-            }
-        }
-        .quotation {
-            width: 515px;
-            margin: 0 auto;
-            span:nth-child(1) {
-                float:left;
-            }
-            span:nth-child(2) {
-                float:right;
-            }
-        }
-        .txt {
-            color:#838383;
-            overflow: visible;
-            display: block;
-            text-align: center;
-            margin:20px 0 50px;
-        }
-        .img{
-            img{
-                width: 640px;
-                margin-bottom: 58px;
-            }
-        }
-        .summary {
-            width: 845px;
-            height: 58px;
-            line-height: 58px;
-            border-top: 0.25px #A9A8A8 solid;
-            border-bottom : 0.25px #A9A8A8 solid;
-            margin : 0 auto;
-            float:none;
-            span {
-                margin-left:10px;
-                background-image: url(../assets/images/source/bar.png);
-                background-repeat: no-repeat;
-                background-position: 10px center;
-                img {
-                    vertical-align: middle;
-                    margin-left: 5px;
+            .img{
+                img{
+                    width: 640px;
+                    margin-bottom: 58px;
                 }
             }
-        }
-        .directions {
-            text-align: left;
-            margin-left:110px;
-            p {
-                margin-bottom: 30px;
-            }
-            span:nth-child(1) {
-                display: block;
-                margin: 50px 0 20px;
-                color:#676767;
-                font-size: 14px;
-                img {
-                    margin-right: 10px;
-                }
-            }
-            span:nth-child(2) {
-                color:#ABABAB;
-                font-size: 12px;
-            }
-        }
-        .steps {
-            text-align: left;
-            margin-left:110px;
-            span:nth-child(1) {
-                display: block;
-                margin: 50px 0 20px;
-                color:#676767;
-                font-size: 14px;
-                img {
-                    margin-right: 10px;
-                }
-            }
-            .first {
+            .summary {
+                width: 845px;
+                height: 58px;
+                line-height: 58px;
+                border-top: 0.25px #A9A8A8 solid;
+                border-bottom : 0.25px #A9A8A8 solid;
+                margin : 0 auto;
+                float:none;
                 span {
+                    margin-left:10px;
+                    background-image: url(../assets/images/source/bar.png);
+                    background-repeat: no-repeat;
+                    background-position: 10px center;
+                    img {
+                        vertical-align: middle;
+                        margin-left: 5px;
+                    }
+                }
+            }
+        }
+        .left_section{
+            width: 880px;
+            height: 100%;
+            .directions {
+                p {
+                    margin-bottom: 30px;
+                }
+            }
+            .steps {
+                span[class^="step_"] {
+                    overflow:hidden;
+                    height: 100%;
+                    p {
+                        margin-bottom: 30px;
+                    }
+                }
+                .step_icon {
                     margin: 0 10px 0 0;
                 }
-
+                .step_img {
+                    width: 615px; //원래는 610px
+                    height: 200px;
+                    // outline:1px #f00 solid;
+                    color:#ABABAB;
+                    font-size: 12px;
+                    img {
+                        width: 200px;
+                        height: 200px;
+                        margin:0 5px 20px 0;
+                    }
+                }
+            }
+            .tag {
+                clear:both;
             }
         }
-
+        .bottom_section{
+            .related_recipe {
+                width: 100%;
+                li {
+                    float:left;
+                    width: 25%;
+                    img {
+                        width: 100%;
+                    }
+                }
+            }
+        }
     }
 }
