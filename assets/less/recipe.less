@@ -3,11 +3,12 @@ body {
     .contents {
         text-align: center;
         width: 1240px;
-        // height: 3350px;
         height: 100%;
-        margin: 200px auto;
+        padding: 95px 0 40px;
+        margin: 0 auto;
         background-color: #fff;
         border-radius: 7px;
+        overflow: hidden;
         span[class$="_sb"]{
             color:#676767;
             font-size: 14px;
@@ -27,7 +28,7 @@ body {
         }
         .top_section{
             .subject{
-                padding: 95px 0 13px;
+                padding-bottom: 13px;
                 span{
                     display: block;
                     text-align: center;
@@ -122,17 +123,60 @@ body {
                 clear:both;
             }
         }
+        .right_section {
+            outline: 1px #ccc solid;
+            width: 300px;
+            height: 1000px;
+        }
         .bottom_section{
             .related_recipe {
                 width: 100%;
-                li {
-                    float:left;
-                    width: 25%;
-                    img {
-                        width: 100%;
+                margin-bottom: 30px;
+                ul {
+                    overflow: hidden;
+                    li {
+                        float:left;
+                        width: 20%;
+                        img {
+                            width: 100%;
+                        }
                     }
                 }
             }
+            .comment {
+                li {
+                    overflow: hidden;
+                    margin-bottom: 20px;
+                    .profile {
+                        float:left;
+                        margin-right: 10px;
+                    }
+                    span {
+                        display: block;
+                        margin-bottom: 10px;
+                    }
+                    span.grade {
+                        display: inline;
+                    }
+                }
+                .re {
+                    margin-left: 50px;
+                }
+
+            }
         }
     }
+    .copyright {
+        width: 1240px;
+        height: 40px;
+        line-height: 40px;
+        margin: 0 auto;
+        span{
+            float:left;
+            margin-left: 30px;
+            color:#ABABAB;
+            font-size: 14px;
+        }
+    }
+
 }
