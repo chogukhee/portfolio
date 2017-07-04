@@ -15,28 +15,34 @@ i {font-style:normal;}
 
 header {
   width:1920px;
-  height:120px;
-  line-height: 120px;
-  background-color: rgba(255,255,255,0.4);
+  height:96px;
+  line-height:96px;
+  background-color: #F8FBFC;
   position:fixed;
   top:0;
   z-index: 20000;
-  box-shadow: 0 5px 10px #bababa;
+  box-shadow: 0 5px 10px rgba(186, 186, 186,0.5);
   .gnb {
     // outline: 1px #F00 solid;
     width: 1240px;
-    height: 120px;
+    height: 96px;
     margin: 0 auto;
     .logo{
       width: 60px;
       height: 51px;
-      margin:30px 75px 0 0;
+      margin: 25px 75px 0 15px;
+      img {
+          width: 80%;
+      }
     }
     .site_option {
-      margin-top :47px;
-      width: 168px;
+      margin-top :39px;
+      img {
+          width: 13%;
+      }
       .search {
         // margin-left: 24px;
+
       }
       .login {
         margin-left: 24px;
@@ -47,12 +53,15 @@ header {
     }
     .menu {
       width: 884px;
-      margin-left:220px;
+      margin-left:228px;
       li {
         float:left;
-        margin :50px 70px 0 0;
+        margin :42px 70px 0 0;
         a{
           font-size: 18px;
+        }
+        img {
+            width: 80%;
         }
       }
     }

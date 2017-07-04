@@ -58,52 +58,63 @@ i {
 /* line 16, assets\less\common.less */
 header {
   width: 1920px;
-  height: 120px;
-  line-height: 120px;
-  background-color: rgba(255, 255, 255, 0.4);
+  height: 96px;
+  line-height: 96px;
+  background-color: #F8FBFC;
   position: fixed;
   top: 0;
   z-index: 20000;
-  box-shadow: 0 5px 10px #bababa;
+  box-shadow: 0 5px 10px rgba(186, 186, 186, 0.5);
 }
 /* line 25, assets\less\common.less */
 header .gnb {
   width: 1240px;
-  height: 120px;
+  height: 96px;
   margin: 0 auto;
 }
 /* line 30, assets\less\common.less */
 header .gnb .logo {
   width: 60px;
   height: 51px;
-  margin: 30px 75px 0 0;
+  margin: 25px 75px 0 15px;
 }
-/* line 35, assets\less\common.less */
+/* line 34, assets\less\common.less */
+header .gnb .logo img {
+  width: 80%;
+}
+/* line 38, assets\less\common.less */
 header .gnb .site_option {
-  margin-top: 47px;
-  width: 168px;
+  margin-top: 39px;
 }
-/* line 41, assets\less\common.less */
+/* line 40, assets\less\common.less */
+header .gnb .site_option img {
+  width: 13%;
+}
+/* line 47, assets\less\common.less */
 header .gnb .site_option .login {
   margin-left: 24px;
 }
-/* line 44, assets\less\common.less */
+/* line 50, assets\less\common.less */
 header .gnb .site_option .sitemap {
   margin-left: 24px;
 }
-/* line 48, assets\less\common.less */
+/* line 54, assets\less\common.less */
 header .gnb .menu {
   width: 884px;
-  margin-left: 220px;
+  margin-left: 228px;
 }
-/* line 51, assets\less\common.less */
+/* line 57, assets\less\common.less */
 header .gnb .menu li {
   float: left;
-  margin: 50px 70px 0 0;
+  margin: 42px 70px 0 0;
 }
-/* line 54, assets\less\common.less */
+/* line 60, assets\less\common.less */
 header .gnb .menu li a {
   font-size: 18px;
+}
+/* line 63, assets\less\common.less */
+header .gnb .menu li img {
+  width: 80%;
 }
 /* line 1, assets\less\style.less */
 .main {
@@ -205,8 +216,8 @@ body .contents {
   text-align: center;
   width: 1240px;
   height: 100%;
-  padding: 95px 0 40px;
-  margin: 0 auto;
+  padding: 80px 0 40px;
+  margin: 130px auto;
   background-color: #fff;
   border-radius: 7px;
   overflow: hidden;
@@ -243,42 +254,49 @@ body .contents .top_section .subject span {
 /* line 36, assets\less\recipe.less */
 body .contents .top_section .subject span:nth-child(1) {
   text-transform: capitalize;
-  font-size: 25px;
+  font-size: 23px;
   color: #5C5C5C;
 }
 /* line 41, assets\less\recipe.less */
 body .contents .top_section .subject span:nth-child(2) {
   text-transform: uppercase;
-  font-size: 14px;
+  font-size: 13px;
   color: #B0B0B0;
 }
 /* line 47, assets\less\recipe.less */
 body .contents .top_section .quotation {
   width: 515px;
   margin: 0 auto;
+  overflow: hidden;
+  margin: 0 auto 25px;
 }
-/* line 50, assets\less\recipe.less */
+/* line 53, assets\less\recipe.less */
 body .contents .top_section .quotation span:nth-child(1) {
   float: left;
 }
-/* line 53, assets\less\recipe.less */
+/* line 59, assets\less\recipe.less */
 body .contents .top_section .quotation span:nth-child(2) {
   float: right;
 }
-/* line 57, assets\less\recipe.less */
+/* line 61, assets\less\recipe.less */
+body .contents .top_section .quotation span:nth-child(2) img {
+  margin-top: 30px;
+}
+/* line 66, assets\less\recipe.less */
 body .contents .top_section .txt {
+  font-size: 15px;
   color: #838383;
   overflow: visible;
   display: block;
   text-align: center;
-  margin: 20px 0 50px;
+  margin-top: 20px;
 }
-/* line 65, assets\less\recipe.less */
+/* line 75, assets\less\recipe.less */
 body .contents .top_section .img img {
   width: 640px;
   margin-bottom: 58px;
 }
-/* line 70, assets\less\recipe.less */
+/* line 80, assets\less\recipe.less */
 body .contents .top_section .summary {
   width: 845px;
   height: 58px;
@@ -287,113 +305,114 @@ body .contents .top_section .summary {
   border-bottom: 0.25px #A9A8A8 solid;
   margin: 0 auto;
   float: none;
+  color: #5C5C5C;
 }
-/* line 78, assets\less\recipe.less */
+/* line 89, assets\less\recipe.less */
 body .contents .top_section .summary span {
   margin-left: 10px;
   background-image: url(../assets/images/source/bar.png);
   background-repeat: no-repeat;
   background-position: 10px center;
 }
-/* line 83, assets\less\recipe.less */
+/* line 94, assets\less\recipe.less */
 body .contents .top_section .summary span img {
   vertical-align: middle;
   margin-left: 5px;
 }
-/* line 90, assets\less\recipe.less */
+/* line 101, assets\less\recipe.less */
 body .contents .left_section {
   width: 880px;
   height: 100%;
 }
-/* line 94, assets\less\recipe.less */
+/* line 105, assets\less\recipe.less */
 body .contents .left_section .directions p {
   margin-bottom: 30px;
 }
-/* line 99, assets\less\recipe.less */
+/* line 110, assets\less\recipe.less */
 body .contents .left_section .steps span[class^="step_"] {
   overflow: hidden;
   height: 100%;
 }
-/* line 102, assets\less\recipe.less */
+/* line 113, assets\less\recipe.less */
 body .contents .left_section .steps span[class^="step_"] p {
   margin-bottom: 30px;
 }
-/* line 106, assets\less\recipe.less */
+/* line 117, assets\less\recipe.less */
 body .contents .left_section .steps .step_icon {
   margin: 0 10px 0 0;
 }
-/* line 109, assets\less\recipe.less */
+/* line 120, assets\less\recipe.less */
 body .contents .left_section .steps .step_img {
   width: 615px;
   height: 200px;
   color: #ABABAB;
   font-size: 12px;
 }
-/* line 115, assets\less\recipe.less */
+/* line 126, assets\less\recipe.less */
 body .contents .left_section .steps .step_img img {
   width: 200px;
   height: 200px;
   margin: 0 5px 20px 0;
 }
-/* line 122, assets\less\recipe.less */
+/* line 133, assets\less\recipe.less */
 body .contents .left_section .tag {
   clear: both;
 }
-/* line 126, assets\less\recipe.less */
+/* line 137, assets\less\recipe.less */
 body .contents .right_section {
   outline: 1px #ccc solid;
   width: 300px;
   height: 1000px;
 }
-/* line 132, assets\less\recipe.less */
+/* line 143, assets\less\recipe.less */
 body .contents .bottom_section .related_recipe {
   width: 100%;
   margin-bottom: 30px;
 }
-/* line 135, assets\less\recipe.less */
+/* line 146, assets\less\recipe.less */
 body .contents .bottom_section .related_recipe ul {
   overflow: hidden;
 }
-/* line 137, assets\less\recipe.less */
+/* line 148, assets\less\recipe.less */
 body .contents .bottom_section .related_recipe ul li {
   float: left;
   width: 20%;
 }
-/* line 140, assets\less\recipe.less */
+/* line 151, assets\less\recipe.less */
 body .contents .bottom_section .related_recipe ul li img {
   width: 100%;
 }
-/* line 147, assets\less\recipe.less */
+/* line 158, assets\less\recipe.less */
 body .contents .bottom_section .comment li {
   overflow: hidden;
   margin-bottom: 20px;
 }
-/* line 150, assets\less\recipe.less */
+/* line 161, assets\less\recipe.less */
 body .contents .bottom_section .comment li .profile {
   float: left;
   margin-right: 10px;
 }
-/* line 154, assets\less\recipe.less */
+/* line 165, assets\less\recipe.less */
 body .contents .bottom_section .comment li span {
   display: block;
   margin-bottom: 10px;
 }
-/* line 158, assets\less\recipe.less */
+/* line 169, assets\less\recipe.less */
 body .contents .bottom_section .comment li span.grade {
   display: inline;
 }
-/* line 162, assets\less\recipe.less */
+/* line 173, assets\less\recipe.less */
 body .contents .bottom_section .comment .re {
   margin-left: 50px;
 }
-/* line 169, assets\less\recipe.less */
+/* line 180, assets\less\recipe.less */
 body .copyright {
   width: 1240px;
   height: 40px;
   line-height: 40px;
   margin: 0 auto;
 }
-/* line 174, assets\less\recipe.less */
+/* line 185, assets\less\recipe.less */
 body .copyright span {
   float: left;
   margin-left: 30px;
