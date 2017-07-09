@@ -1,0 +1,316 @@
+body {
+    background-color: #f4f5f7;
+    .sub_header {
+        background-color: #F8FBFC;
+    }
+    .contents {
+        position:relative;
+        text-align: center;
+        width: 1240px;
+        height: 100%;
+        padding: 80px 0 40px;
+        margin: 130px auto 0;
+        background-color: #fff;
+        border-radius: 7px;
+        overflow: hidden;
+        span[class$="_sb"]{
+            color:#676767;
+            font-size: 14px;
+            display: block;
+            margin: 50px 0 20px 110px;
+            text-align: left;
+            img {
+                margin-right: 10px;
+                vertical-align: middle;
+            }
+        }
+        span[class$="_txt"]{
+            color:#ABABAB;
+            font-size: 12px;
+            text-align: left;
+            display: block;
+            margin-left: 110px;
+        }
+        .top_section{
+            .subject{
+                padding-bottom: 13px;
+                span{
+                    display: block;
+                    text-align: center;
+                }
+                span:nth-child(1){
+                    text-transform: capitalize;
+                    font-size: 23px;
+                    color:#5C5C5C;
+                }
+                span:nth-child(2){
+                    text-transform: uppercase;
+                    font-size: 13px;
+                    color:#B0B0B0;
+                }
+            }
+            .quotation {
+                width: 515px;
+                margin: 0 auto;
+                overflow: hidden;
+                margin:0 auto 25px;
+
+                span:nth-child(1) {
+                    float:left;
+                    // img{
+                    //     margin-top:-20px;
+                    // }
+                }
+                span:nth-child(2) {
+                    float:right;
+                    img {
+                        margin-top:30px;
+                    }
+                }
+            }
+            .txt {
+                font-size: 14px;
+                color:#838383;
+                overflow: visible;
+                display: block;
+                text-align: center;
+                margin-top: 20px;
+            }
+            .img_2{
+                img{
+                    width: 470px;
+                    margin-bottom: 58px;
+                }
+            }
+            .summary {
+                width: 845px;
+                height: 58px;
+                line-height: 58px;
+                border-top: 0.25px #D3D1D1 solid;
+                border-bottom : 0.25px #D3D1D1 solid;
+                margin : 0 auto;
+                float:none;
+                color:#5C5C5C;
+                ul {
+                    li {
+                        padding: 0 5px;
+                        display: inline-block;
+                        text-align: center;
+                        background-image: url(../images/source/bar2.png);
+                        background-repeat: no-repeat;
+                        background-position: 0 center;
+                        img {
+                            vertical-align: middle;
+                            margin:0 5px 0 10px;
+                        }
+                    }
+                    li:first-child {
+                        background: none;
+                    }
+                }
+            }
+        }
+        .left_section{
+            width: 815px;
+            height: 100%;
+            .directions {
+                p {
+                    margin-bottom: 30px;
+                }
+            }
+            .steps {
+                span[class^="step_"] {
+                    overflow:hidden;
+                    height: 100%;
+                    p {
+                        margin-bottom: 30px;
+                    }
+                }
+                .step_icon {
+                    margin: 0 10px 0 0;
+                    img {
+                        vertical-align: middle;
+                    }
+                }
+                .step_img {
+                    width: 615px; //원래는 610px
+                    height: 200px;
+                    color:#ABABAB;
+                    font-size: 12px;
+                    img {
+                        width: 200px;
+                        height: 200px;
+                        margin:0 5px 20px 0;
+                    }
+                }
+                .no_img {
+                  p {
+                    margin-bottom: 70px;
+                  }
+                }
+            }
+            .tag {
+                clear:both;
+            }
+        }
+        .right_section {
+            position: absolute;
+            right:0;
+            width: 300px;
+            margin-right: 110px;
+            span[class$="_sb"]{
+                color:#676767;
+                font-size: 14px;
+                display: block;
+                margin: 0 auto 15px;
+                padding-top:15px;
+                text-align: center;
+                img {
+                    margin-right: 10px;
+                }
+            }
+            span[class$="_txt"]{
+                margin-left: 0;
+                text-align: center;
+                margin-bottom: -4px;
+                li {
+                    color:#ABABAB;
+                    font-size: 12px;
+                    display: block;
+                    height: 20px;
+                    line-height: 20px;
+                    margin: 7px auto ;
+                    text-align: left;
+                    padding-bottom: 3px;
+                    border-bottom: 1px #E7E7E7 solid;
+                    img {
+                        margin: 4px 13px 0;
+                    }
+                }
+                li:last-child {
+                    border: none;
+                }
+            }
+            .ingredient {
+                outline: 3px #F4F5F7 solid;
+                width: 274px;
+                height: 100%;
+                border-radius: 4px;
+                margin: 50px 0 0 23px;
+                padding: 0 10px;
+                box-sizing: border-box;
+            }
+            .nutritional_information {
+                outline: 3px #F4F5F7 solid;
+                width: 274px;
+                height: 223px;
+                padding: 0 10px;
+                box-sizing: border-box;
+                border-radius: 4px;
+                margin: 50px 0 0 23px;
+                ul {
+                    width: 300px;
+                    li{
+                        float: left;
+                        width: 77px;
+                        height: 77px;
+                        background-color: #F4F5F7;
+                        border-radius: 4px;
+                        margin: 0 10px 10px 0;
+                        padding-top: 20px;
+                        box-sizing: border-box;
+                        span {
+                            display: block;
+                            text-align: center;
+                        }
+                        span:nth-last-child(even) {
+                            color: #676767;
+                            font-weight: 500;
+                        }
+                        span:nth-last-child(odd) {
+                            color: #ABABAB;
+                        }
+                    }
+                    li.a {
+                        margin-right: 0;
+                    }
+                }
+            }
+            .bookmark {
+                outline: 3px #F4F5F7 solid;
+                width: 274px;
+                height: 140px;
+                border-radius: 4px;
+                margin: 50px 0 0 23px;
+                padding: 0 10px;
+                box-sizing: border-box;
+                .bookmark_txt {
+                    background-color: #F4F5F7;
+                    padding: 25px 0;
+                    box-sizing: border-box;
+
+                }
+            }
+        }
+        .bottom_section{
+            .related_recipe {
+                width: 100%;
+                margin-bottom: 30px;
+                ul {
+                    overflow: hidden;
+                    li {
+                        float:left;
+                        width: 20%;
+                        img {
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+            .comment {
+                li {
+                    overflow: hidden;
+                    margin-bottom: 20px;
+                    .profile {
+                        float:left;
+                        margin-right: 10px;
+                    }
+                    span {
+                        display: block;
+                        margin-bottom: 3px;
+                        img {
+                            vertical-align: middle;
+                        }
+                    }
+                }
+                .re {
+                    margin-left: 50px;
+                }
+
+            }
+        }
+    }
+    .copyright {
+        width: 1240px;
+        height: 40px;
+        line-height: 40px;
+        margin: 0 auto;
+        span {
+            float:left;
+            color:#ABABAB;
+            font-size: 14px;
+            margin-left: 30px;
+        }
+        span:nth-child(2){
+            margin-left: 542px;
+        }
+        span:nth-child(3){
+            margin-left: 50px;
+            img {
+                vertical-align: middle;
+            }
+
+        }
+    }
+
+}
