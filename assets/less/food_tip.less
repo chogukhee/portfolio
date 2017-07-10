@@ -1,44 +1,70 @@
 .food_tip_page {
-    background-color: #f4f5f7;
-    .wrapper {
-        position:relative;
-        text-align: center;
-        width: 1240px;
-        height: 100%;
-        padding: 80px 100px 40px;
-        box-sizing: border-box;
-        margin: 130px auto 0;
-        background-color: #fff;
-        border-radius: 7px;
-        overflow: hidden;
-        span[class$="_sb"] {
-            span {
-                display: block;
-                font-size: 21px;
-                color: #231f20;
-                img {
-                    margin: 20px 0 21px;
-                }
-            }
+  background-color: #f4f5f7;
+  .sub_header {
+    background-color: #F8FBFC;
+  }
+  .wrapper {
+    position:relative;
+    text-align: center;
+    width: 1240px;
+    height: 100%;
+    padding: 80px 100px 40px;
+    box-sizing: border-box;
+    margin: 130px auto 0;
+    background-color: #fff;
+    border-radius: 7px;
+    overflow: hidden;
+    span[class$="_sb"] {
+      span {
+        display: block;
+        font-size: 21px;
+        color: #231f20;
+        img {
+          margin: 20px 0 21px;
         }
-        span[class$="_txt"] {
-            span {
-                color: #868686;
-                font-size: 15px;
-                line-height: 29px;
-            }
-        }
-        .contents {
-            outline: 1px #f00 solid;
-            padding-top: 100px;
-            li {
-                width: 1040px;
-                height: 280px;
-                outline: 1px #f00 solid;
-                img {
-                    
-                }
-            }
-        }
+      }
     }
+    span[class$="_txt"] {
+      span {
+        color: #868686;
+        font-size: 15px;
+        line-height: 29px;
+      }
+    }
+    .contents {
+      // outline: 1px #f00 solid;
+      padding-top:100px;
+      li {
+        position: relative;
+        padding: 0 100px;
+        box-sizing: border-box;
+        width: 1040px;
+        height: 280px;
+        // outline: 1px #f00 solid;
+        border-bottom: 1px #dbdbdb solid;
+        text-align: left;
+        img {
+          position: absolute;
+          top:16.5px;
+          left: 75px;
+          margin-right : 25px;
+          vertical-align: middle;
+        }
+        .text {
+          position: absolute;
+          left: 435px;
+          outline: 1px #f00 solid;
+          top:50%-35px;
+          strong {
+            font-size: 21px;
+            // color:#231f20;
+          }
+          img {
+            margin: 0 10px;
+          }
+        }
+
+      }
+    }
+  }
 }
