@@ -3252,3 +3252,59 @@ header .gnb .menu li img {
 .food_tip_page .wrapper .contents li .text img {
   margin: 0 10px;
 }
+/* line 1, assets\less\event_notice.less */
+.event_notice_page {
+  background-color: #f4f5f7;
+}
+/* line 3, assets\less\event_notice.less */
+.event_notice_page .sub_header {
+  background-color: #F8FBFC;
+}
+/* line 6, assets\less\event_notice.less */
+.event_notice_page .wrapper {
+  width: 1240px;
+  height: 100%;
+  overflow: hidden;
+  padding: 80px 100px 40px;
+  box-sizing: border-box;
+  margin: 130px auto 0;
+  background-color: #fff;
+  border-radius: 7px;
+  text-align: center;
+}
+/* line 17, assets\less\event_notice.less */
+.event_notice_page .wrapper span[class$="_sb"] span {
+  font-size: 21px;
+  color: #231f20;
+  display: block;
+}
+/* line 21, assets\less\event_notice.less */
+.event_notice_page .wrapper span[class$="_sb"] span img {
+  margin: 20px 0 21px;
+}
+/* line 27, assets\less\event_notice.less */
+.event_notice_page .wrapper span[class$="_txt"] span {
+  font-size: 15px;
+  color: #868686;
+  line-height: 29px;
+}
+/* line 33, assets\less\event_notice.less */
+.event_notice_page .wrapper .contents {
+  padding-top: 100px;
+  overflow: hidden;
+}
+/* line 37, assets\less\event_notice.less */
+.event_notice_page .wrapper .contents div {
+  width: 920px;
+  margin: 0 auto;
+}
+/* line 40, assets\less\event_notice.less */
+.event_notice_page .wrapper .contents div ul {
+  width: 980px;
+}
+/* line 43, assets\less\event_notice.less */
+.event_notice_page .wrapper .contents div ul li img {
+  margin-bottom: 25px;
+  margin-right: 25px;
+  float: left;
+}
