@@ -1,5 +1,45 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
 /*reset*/
-/* line 3, assets\less\common.less */
+/*
+* Noto Sans KR (korean) http://www.google.com/fonts/earlyaccess
+ */
+@font-face {
+  font-family: 'Noto Sans KR';
+  font-style: normal;
+  font-weight: 100;
+  src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Thin.woff2) format('woff2'), url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Thin.woff) format('woff'), url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Thin.otf) format('opentype');
+}
+@font-face {
+  font-family: 'Noto Sans KR light';
+  font-style: normal;
+  font-weight: 300;
+  src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.woff2) format('woff2'), url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.woff) format('woff'), url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.otf) format('opentype');
+}
+@font-face {
+  font-family: 'Noto Sans KR';
+  font-style: normal;
+  font-weight: 400;
+  src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff2) format('woff2'), url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff) format('woff'), url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.otf) format('opentype');
+}
+@font-face {
+  font-family: 'Noto Sans KR';
+  font-style: normal;
+  font-weight: 500;
+  src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Medium.woff2) format('woff2'), url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Medium.woff) format('woff'), url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Medium.otf) format('opentype');
+}
+@font-face {
+  font-family: 'Noto Sans KR';
+  font-style: normal;
+  font-weight: 700;
+  src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.woff2) format('woff2'), url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.woff) format('woff'), url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.otf) format('opentype');
+}
+@font-face {
+  font-family: 'Noto Sans KR';
+  font-style: normal;
+  font-weight: 900;
+  src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Black.woff2) format('woff2'), url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Black.woff) format('woff'), url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Black.otf) format('opentype');
+}
+/* line 57, assets\less\common.less */
 body,
 html,
 h1,
@@ -16,50 +56,50 @@ p {
   margin: 0;
   padding: 0;
 }
-/* line 4, assets\less\common.less */
+/* line 58, assets\less\common.less */
 body {
   font-family: 'Noto Sans KR', sans-serif;
 }
-/* line 5, assets\less\common.less */
+/* line 59, assets\less\common.less */
 ul,
 ol,
 dl,
 li {
   list-style: none;
 }
-/* line 6, assets\less\common.less */
+/* line 60, assets\less\common.less */
 img {
   vertical-align: top;
   border: 0;
 }
-/* line 7, assets\less\common.less */
+/* line 61, assets\less\common.less */
 input,
 button {
   vertical-align: middle;
 }
-/* line 8, assets\less\common.less */
+/* line 62, assets\less\common.less */
 a {
   text-decoration: none;
   color: #5b5b5b;
 }
-/* line 9, assets\less\common.less */
+/* line 63, assets\less\common.less */
 i {
   font-style: normal;
 }
 /*option*/
-/* line 13, assets\less\common.less */
+/* line 67, assets\less\common.less */
 .fl {
   float: left;
 }
-/* line 14, assets\less\common.less */
+/* line 68, assets\less\common.less */
 .fr {
   float: right;
 }
-/* line 15, assets\less\common.less */
+/* line 69, assets\less\common.less */
 fieldset {
   border: 0;
 }
-/* line 16, assets\less\common.less */
+/* line 70, assets\less\common.less */
 legend {
   font-size: 0;
   text-indent: -9999px;
@@ -67,11 +107,11 @@ legend {
   top: -9999px;
   left: -9999px;
 }
-/* line 17, assets\less\common.less */
+/* line 71, assets\less\common.less */
 input {
   vertical-align: middle;
 }
-/* line 19, assets\less\common.less */
+/* line 73, assets\less\common.less */
 header {
   width: 100%;
   height: 96px;
@@ -81,53 +121,53 @@ header {
   z-index: 20000;
   box-shadow: 0 5px 10px rgba(186, 186, 186, 0.5);
 }
-/* line 28, assets\less\common.less */
+/* line 82, assets\less\common.less */
 header .gnb {
   width: 1240px;
   height: 96px;
   margin: 0 auto;
 }
-/* line 33, assets\less\common.less */
+/* line 87, assets\less\common.less */
 header .gnb .logo {
   width: 60px;
   height: 51px;
   margin: 25px 75px 0 30px;
 }
-/* line 37, assets\less\common.less */
+/* line 91, assets\less\common.less */
 header .gnb .logo img {
   width: 80%;
 }
-/* line 41, assets\less\common.less */
+/* line 95, assets\less\common.less */
 header .gnb .site_option {
   margin-top: 39px;
 }
-/* line 43, assets\less\common.less */
+/* line 97, assets\less\common.less */
 header .gnb .site_option img {
   width: 13%;
 }
-/* line 50, assets\less\common.less */
+/* line 104, assets\less\common.less */
 header .gnb .site_option .login {
   margin-left: 24px;
 }
-/* line 53, assets\less\common.less */
+/* line 107, assets\less\common.less */
 header .gnb .site_option .sitemap {
   margin-left: 24px;
 }
-/* line 57, assets\less\common.less */
+/* line 111, assets\less\common.less */
 header .gnb .menu {
   width: 884px;
   margin-left: 240px;
 }
-/* line 60, assets\less\common.less */
+/* line 114, assets\less\common.less */
 header .gnb .menu li {
   float: left;
   margin: 42px 70px 0 0;
 }
-/* line 63, assets\less\common.less */
+/* line 117, assets\less\common.less */
 header .gnb .menu li a {
   font-size: 18px;
 }
-/* line 66, assets\less\common.less */
+/* line 120, assets\less\common.less */
 header .gnb .menu li img {
   width: 80%;
 }
@@ -3199,56 +3239,64 @@ header .gnb .menu li img {
   border-radius: 7px;
   overflow: hidden;
 }
-/* line 18, assets\less\food_tip.less */
+/* line 19, assets\less\food_tip.less */
 .food_tip_page .wrapper span[class$="_sb"] span {
   display: block;
   font-size: 21px;
   color: #231f20;
 }
-/* line 22, assets\less\food_tip.less */
+/* line 23, assets\less\food_tip.less */
 .food_tip_page .wrapper span[class$="_sb"] span img {
   margin: 20px 0 21px;
 }
-/* line 28, assets\less\food_tip.less */
+/* line 29, assets\less\food_tip.less */
 .food_tip_page .wrapper span[class$="_txt"] span {
   color: #868686;
   font-size: 15px;
   line-height: 29px;
 }
-/* line 34, assets\less\food_tip.less */
+/* line 35, assets\less\food_tip.less */
 .food_tip_page .wrapper .contents {
-  padding-top: 100px;
+  padding: 100px 0;
 }
-/* line 37, assets\less\food_tip.less */
+/* line 38, assets\less\food_tip.less */
 .food_tip_page .wrapper .contents li {
   position: relative;
   padding: 0 100px;
-  box-sizing: border-box;
-  width: 1040px;
   height: 280px;
   border-bottom: 1px #dbdbdb solid;
   text-align: left;
 }
+/* line 44, assets\less\food_tip.less */
+.food_tip_page .wrapper .contents li .picture {
+  float: left;
+}
 /* line 46, assets\less\food_tip.less */
-.food_tip_page .wrapper .contents li img {
-  position: absolute;
-  top: 16.5px;
-  left: 75px;
-  margin-right: 25px;
-  vertical-align: middle;
+.food_tip_page .wrapper .contents li .picture img {
+  margin-top: 17.5px;
 }
-/* line 53, assets\less\food_tip.less */
-.food_tip_page .wrapper .contents li .text {
-  position: absolute;
-  left: 435px;
-  outline: 1px #f00 solid;
-  top: 15%;
+/* line 50, assets\less\food_tip.less */
+.food_tip_page .wrapper .contents li .txt_ {
+  float: left;
+  margin-left: 25px;
+  margin-top: 100px;
 }
-/* line 58, assets\less\food_tip.less */
-.food_tip_page .wrapper .contents li .text strong {
+/* line 54, assets\less\food_tip.less */
+.food_tip_page .wrapper .contents li .txt_ div {
   font-size: 21px;
+  color: #231F20;
+  line-height: 30px;
 }
-/* line 62, assets\less\food_tip.less */
-.food_tip_page .wrapper .contents li .text img {
-  margin: 0 10px;
+/* line 59, assets\less\food_tip.less */
+.food_tip_page .wrapper .contents li .txt_ span {
+  font-size: 18px;
+  color: #6B6B6B;
+  background-image: url(../images/source/small_bar.png);
+  background-repeat: no-repeat;
+  background-position: 0 3px;
+}
+/* line 65, assets\less\food_tip.less */
+.food_tip_page .wrapper .contents li .txt_ span img {
+  vertical-align: middle;
+  margin: 10px;
 }
