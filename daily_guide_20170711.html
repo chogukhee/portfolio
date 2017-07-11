@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+
+    <style>
+        button{
+            border:0;
+            background-color:transparent;
+            cursor:pointer;
+        }
+
+        /*option*/
+        .txt-l{text-align:left;}
+        .txt-c{text-align:center;}
+        .txt-r{text-align:right;}
+
+
+        [class^="icon-"]{
+            background-image:url(http://static.naver.net/newsstand/img/20140716/sp_nwstd.png);
+            text-indent:-99999px;
+            display:inline-block;
+            vertical-align:top;
+        }
+
+        [class^="icon-"]::-moz-focus-inner {
+            padding:0;
+            border:0;
+        }
+
+        .icon-big-arrowR{
+            width:21px;
+            height:43px;
+            background-position:-19px -19px;
+        }
+        .icon-big-arrowR:hover{
+            background-position:-146px -19px;
+        }
+
+        .icon-big-arrowL{
+            width:21px;
+            height:43px;
+            background-position:-83px -19px;
+        }
+        .icon-big-arrowL:hover{
+            background-position:-210px -19px;
+        }
+        .btn-group{
+            font-size:0;
+        }
+
+        .icon-small-prev{
+            width:22px;
+            height:22px;
+            background-position: -435px -585px;
+        }
+        .icon-small-next{
+            width:21px;
+            height:22px;
+            background-position: -461px -585px;
+        }
+        .icon-mynews1 {
+            width: 87px;
+            height: 29px;
+            background-position: -1px -116px;
+        }
+        .icon-allnews1 {
+            width: 86px;
+            height: 29px;
+            background-position: -88px -116px;
+        }
+        /*.icon-mynews1:hover {
+            width: 87px;
+            height: 29px;
+            background-position: -1px -116px;
+        }
+        .icon-allnews1:hover {
+            width: 86px;
+            height: 29px;
+            background-position: -88px -116px;
+        }*/
+        .icon-mynews3 {
+            width: 87px;
+            height: 29px;
+            background-position: -1px -116px;
+        }
+        .icon-mynews3:hover {
+            width: 87px;
+            height: 29px;
+            background-position: -1px -150px;
+        }
+        .icon-allnews3 {
+            width: 86px;
+            height: 29px;
+            background-position: -88px -116px;
+        }
+        .icon-allnews3:hover {
+            width: 86px;
+            height: 29px;
+            background-position: -89px -150px;
+        }
+        .icon-mynews3.active{
+            width: 87px;
+            height: 29px;
+            background-position: -1px -150px;
+        }
+        .icon-allnews3.active {
+            width: 86px;
+            height: 29px;
+            background-position: -89px -150px;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <!--http://static.naver.net/newsstand/img/20140716/sp_nwstd.png-->
+
+    <h1>Guied</h1>
+    <div>
+        <h2>버튼</h2>
+        <div>
+            <button class="icon-big-arrowR">test test</button>
+            <button class="icon-big-arrowL">test test</button>
+            <a href="#" class="icon-big-arrowR"> test test </a>
+        </div>
+        <h2>페이져</h2>
+        <div class="btn-group txt-c">
+            <button class="icon-small-prev">이전</button>
+            <button class="icon-small-next">다음</button>
+            <!-- <button class="icon-mynews1"></button>
+            <button class="icon-allnews1"></button> -->
+            <button class="icon-mynews3 active"></button>
+            <button class="icon-allnews3"></button>
+        </div>
+
+        <h2>메시지</h2>
+        <h2>노티피케이션</h2>
+    </div>
+
+</body>
+</html>
