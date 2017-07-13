@@ -1,4 +1,3 @@
-@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
 /*reset*/
 /*
 * Noto Sans KR (korean) http://www.google.com/fonts/earlyaccess
@@ -3283,7 +3282,7 @@ header .gnb .menu li img {
 }
 /* line 54, assets\less\food_tip.less */
 .food_tip_page .wrapper .contents li .txt_ div {
-  font-size: 18px;
+  font-size: 18zpx;
   color: #231F20;
   line-height: 30px;
 }
