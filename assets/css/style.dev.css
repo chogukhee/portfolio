@@ -2,42 +2,6 @@
 /*
 * Noto Sans KR (korean) http://www.google.com/fonts/earlyaccess
  */
-@font-face {
-  font-family: 'Noto Sans KR';
-  font-style: normal;
-  font-weight: 100;
-  src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Thin.woff2) format('woff2'), url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Thin.woff) format('woff'), url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Thin.otf) format('opentype');
-}
-@font-face {
-  font-family: 'Noto Sans KR light';
-  font-style: normal;
-  font-weight: 300;
-  src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.woff2) format('woff2'), url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.woff) format('woff'), url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.otf) format('opentype');
-}
-@font-face {
-  font-family: 'Noto Sans KR';
-  font-style: normal;
-  font-weight: 400;
-  src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff2) format('woff2'), url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff) format('woff'), url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.otf) format('opentype');
-}
-@font-face {
-  font-family: 'Noto Sans KR';
-  font-style: normal;
-  font-weight: 500;
-  src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Medium.woff2) format('woff2'), url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Medium.woff) format('woff'), url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Medium.otf) format('opentype');
-}
-@font-face {
-  font-family: 'Noto Sans KR';
-  font-style: normal;
-  font-weight: 700;
-  src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.woff2) format('woff2'), url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.woff) format('woff'), url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.otf) format('opentype');
-}
-@font-face {
-  font-family: 'Noto Sans KR';
-  font-style: normal;
-  font-weight: 900;
-  src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Black.woff2) format('woff2'), url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Black.woff) format('woff'), url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Black.otf) format('opentype');
-}
 /* line 57, assets\less\common.less */
 body,
 html,
@@ -85,20 +49,36 @@ a {
 i {
   font-style: normal;
 }
+/* line 64, assets\less\common.less */
+button {
+  border: 0 none;
+  padding: 0;
+}
+/* line 65, assets\less\common.less */
+fieldset {
+  padding: 0;
+  margin: 0;
+  border: 0 none;
+}
+/* line 66, assets\less\common.less */
+input {
+  border: 0 none;
+  padding: 0;
+}
 /*option*/
-/* line 67, assets\less\common.less */
+/* line 70, assets\less\common.less */
 .fl {
   float: left;
 }
-/* line 68, assets\less\common.less */
+/* line 71, assets\less\common.less */
 .fr {
   float: right;
 }
-/* line 69, assets\less\common.less */
+/* line 72, assets\less\common.less */
 fieldset {
   border: 0;
 }
-/* line 70, assets\less\common.less */
+/* line 73, assets\less\common.less */
 legend {
   font-size: 0;
   text-indent: -9999px;
@@ -106,11 +86,11 @@ legend {
   top: -9999px;
   left: -9999px;
 }
-/* line 71, assets\less\common.less */
+/* line 74, assets\less\common.less */
 input {
   vertical-align: middle;
 }
-/* line 73, assets\less\common.less */
+/* line 76, assets\less\common.less */
 header {
   width: 100%;
   height: 96px;
@@ -120,53 +100,53 @@ header {
   z-index: 20000;
   box-shadow: 0 5px 10px rgba(186, 186, 186, 0.5);
 }
-/* line 82, assets\less\common.less */
+/* line 85, assets\less\common.less */
 header .gnb {
   width: 1240px;
   height: 96px;
   margin: 0 auto;
 }
-/* line 87, assets\less\common.less */
+/* line 90, assets\less\common.less */
 header .gnb .logo {
   width: 60px;
   height: 51px;
   margin: 25px 75px 0 30px;
 }
-/* line 91, assets\less\common.less */
+/* line 94, assets\less\common.less */
 header .gnb .logo img {
   width: 80%;
 }
-/* line 95, assets\less\common.less */
+/* line 98, assets\less\common.less */
 header .gnb .site_option {
   margin-top: 39px;
 }
-/* line 97, assets\less\common.less */
+/* line 100, assets\less\common.less */
 header .gnb .site_option img {
   width: 13%;
 }
-/* line 104, assets\less\common.less */
+/* line 107, assets\less\common.less */
 header .gnb .site_option .login {
   margin-left: 24px;
 }
-/* line 107, assets\less\common.less */
+/* line 110, assets\less\common.less */
 header .gnb .site_option .sitemap {
   margin-left: 24px;
 }
-/* line 111, assets\less\common.less */
+/* line 114, assets\less\common.less */
 header .gnb .menu {
   width: 884px;
   margin-left: 240px;
 }
-/* line 114, assets\less\common.less */
+/* line 117, assets\less\common.less */
 header .gnb .menu li {
   float: left;
   margin: 42px 70px 0 0;
 }
-/* line 117, assets\less\common.less */
+/* line 120, assets\less\common.less */
 header .gnb .menu li a {
   font-size: 18px;
 }
-/* line 120, assets\less\common.less */
+/* line 123, assets\less\common.less */
 header .gnb .menu li img {
   width: 80%;
 }
@@ -3355,16 +3335,18 @@ header .gnb .menu li img {
   margin-right: 25px;
   float: left;
 }
-/* line 2, assets\less\popup.less */
-.login_box .login {
-  margin: 150px auto;
-  outline: 1px #ccc solid;
+/* line 6, assets\less\popup.less */
+#login_box .login {
+  position: fixed;
+  left: 50%;
+  margin-left: -520px;
+  top: 200px;
+  z-index: 99999;
   width: 1040px;
   height: 600px;
 }
-/* line 7, assets\less\popup.less */
-.login_box .login .left {
-  outline: 1px #ccc solid;
+/* line 15, assets\less\popup.less */
+#login_box .login .left {
   width: 638px;
   height: 600px;
   background-color: rgba(255, 255, 255, 0.4);
@@ -3372,24 +3354,72 @@ header .gnb .menu li img {
   box-sizing: border-box;
   color: #7F8687;
 }
-/* line 15, assets\less\popup.less */
-.login_box .login .left span:nth-child(1) {
+/* line 23, assets\less\popup.less */
+#login_box .login .left span:nth-child(1) {
   font-size: 50px;
 }
-/* line 18, assets\less\popup.less */
-.login_box .login .left span:nth-child(2) {
+/* line 26, assets\less\popup.less */
+#login_box .login .left span:nth-child(2) {
   font-size: 25px;
   display: block;
 }
-/* line 23, assets\less\popup.less */
-.login_box .login .right {
+/* line 31, assets\less\popup.less */
+#login_box .login .right {
+  text-align: center;
   margin-left: 638px;
-  outline: 1px #ccc solid;
   width: 402px;
   height: 600px;
-  background-color: #FFF;
+  background-color: rgba(255, 255, 255, 0.9);
 }
-/* line 29, assets\less\popup.less */
-.login_box .login .right img {
-  margin-top: 75px;
+/* line 39, assets\less\popup.less */
+#login_box .login .right div img {
+  width: 134px;
+  height: 134px;
+  margin: 75px auto 0;
+}
+/* line 45, assets\less\popup.less */
+#login_box .login .right .close {
+  background-image: url(../images/source/close.png);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+/* line 50, assets\less\popup.less */
+#login_box .login .right .signup {
+  margin: 58px auto 34px;
+}
+/* line 52, assets\less\popup.less */
+#login_box .login .right .signup span:nth-child(1) {
+  color: #5B5B5B;
+}
+/* line 55, assets\less\popup.less */
+#login_box .login .right .signup span:nth-child(2) {
+  color: #C4C4C4;
+}
+/* line 60, assets\less\popup.less */
+#login_box .login .right fieldset input[type="text"] {
+  width: 332px;
+  height: 50px;
+  border: 1px #C4C4C4 solid;
+  display: block;
+  margin: 0 auto;
+  padding-left: 20px;
+  font-size: 14px;
+  color: #5B5B5B;
+  margin-bottom: 8px;
+  box-sizing: border-box;
+}
+/* line 72, assets\less\popup.less */
+#login_box .login .right fieldset input[type="button"] {
+  width: 332px;
+  height: 50px;
+  background-color: #C4C4C4;
+  font-size: 16px;
+  color: #FFF;
+}
+/* line 80, assets\less\popup.less */
+#login_box .login .right .search_password {
+  color: #C4C4C4;
+  font-size: 16px;
+  margin-top: 46px;
+  display: block;
 }

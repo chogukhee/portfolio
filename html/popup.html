@@ -1,29 +1,26 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>COOKING+</title>
-    <link rel="stylesheet" href="../assets/css/style.min.css">
-</head>
-<body class="login_box">
-    <div class="login">
-        <div class="left fl">
-            <span><strong>WHAT WILL YOU <br />BUILD TODAY?</strong></span>
-            <span>Let’s get started</span>
-        </div>
-        <div class="right">
-            <img src="../assets/images/source/large_profile.png" alt="">
-            <span>Need an Account?</span>
-            <span>Sign Up</span>
-            <span>
-                <input type="text">
-                <input type="text">
-                <input type="button">
-            </span>
-            <span>Forgot Your Password?</span>
-        </div>
+
+<div id="login_box">
+<div class="login">
+    <div class="left fl">
+        <span><strong>WHAT WILL YOU <br />BUILD TODAY?</strong></span>
+        <span>Let’s get started</span>
     </div>
-</body>
-</html>
+    <div class="right">
+        <button class="close fr"></button>
+        <div><img src="../assets/images/source/large_profile.png" alt=""></div>
+        <div class="signup">
+            <span><strong>Need an Account?</strong></span>
+            <span><strong>Sign Up</strong></span>
+        </div>
+        <div> <!-- fieldset은 블럭 -->
+            <fieldset>
+                <legend>검색</legend>
+                <label for="email"><input type="text" id="email" placeholder="Email"></label>
+                <label for="password"><input type="text" id="password" placeholder="Password"></label>
+                <input type="button" value="Sign In">
+            </fieldset>
+        </div>
+        <span class="search_password">Forgot Your Password?</span>
+    </div>
+</div>
+</div>

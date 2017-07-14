@@ -6,8 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>COOKING+</title>
     <link rel="stylesheet" href="../assets/css/style.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
 </head>
 <body class="main_page">
+    <div id="log"></div>
     <header class ="main_header">
         <div>
             <div class="gnb">
@@ -171,5 +174,13 @@
     </div>
 </section>
 <footer></footer>
+
+<script>
+$('.login').click(function(e){
+    e.preventDefault();
+    $('#log').load("popup.html #login_box");
+    $(window).scrollTop(0);
+})
+</script>
 </body>
 </html>

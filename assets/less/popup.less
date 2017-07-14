@@ -1,11 +1,19 @@
-.login_box {
+
+#login_box {
+
+    // background-image: url(../images/main.png);
+    // background-repeat: no-repeat;
     .login {
-        margin:150px auto;
-        outline: 1px #ccc solid;
+        position:fixed;
+        left:50%;
+        margin-left:-520px;
+        top:200px;
+        z-index: 99999;
+        // outline: 1px #ccc solid;
         width: 1040px;
         height: 600px;
         .left{
-            outline: 1px #ccc solid;
+            // outline: 1px #ccc solid;
             width: 638px;
             height: 600px;
             background-color: rgba(255, 255, 255, 0.4);
@@ -21,13 +29,59 @@
             }
         }
         .right {
+            text-align: center;
             margin-left:638px;
-            outline: 1px #ccc solid;
+            // outline: 1px #ccc solid;
             width: 402px;
             height: 600px;
-            background-color: #FFF;
-            img {
-                margin-top: 75px;
+            background-color: rgba(255, 255, 255, 0.9);
+            div {
+                img {
+                    width: 134px;
+                    height: 134px;
+                    margin: 75px auto 0;
+                }
+            }
+            .close {
+                background-image:url(../images/source/close.png);
+                background-repeat: no-repeat;
+                background-position: 0 0;
+            }
+            .signup {
+                margin:58px auto 34px;
+                span:nth-child(1) {
+                    color:#5B5B5B;
+                }
+                span:nth-child(2) {
+                    color:#C4C4C4;
+                }
+            }
+            fieldset {
+                input[type="text"] {
+                    width: 332px;
+                    height: 50px;
+                    border: 1px #C4C4C4 solid;
+                    display: block;
+                    margin: 0 auto;
+                    padding-left: 20px;
+                    font-size: 14px;
+                    color:#5B5B5B;
+                    margin-bottom: 8px;
+                    box-sizing: border-box;
+                }
+                input[type="button"] {
+                    width: 332px;
+                    height: 50px;
+                    background-color: #C4C4C4;
+                    font-size: 16px;
+                    color:#FFF;
+                }
+            }
+            .search_password {
+                color:#C4C4C4;
+                font-size: 16px;
+                margin-top: 46px;
+                display: block;
             }
         }
 
