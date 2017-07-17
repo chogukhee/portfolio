@@ -70,10 +70,25 @@
                         height: 428px;
                         float:left;
                         margin: 0 33.333px 33.333px 0;
-                        img {
-                            margin:0 0 10px;
-                            width: 300px;
-                            height: 300px;
+                        &:hover .hover_img img{
+                            display: block;
+                        }
+                        .hover_img {
+                            img {
+                                display: none;
+                                width: 300px;
+                                height: 300px;
+                                position: absolute;
+                                margin:0;
+                            }
+
+                        }
+                        a {
+                            img {
+                                margin:0 0 10px;
+                                width: 300px;
+                                height: 300px;
+                            }
                         }
                         span {
                             display: block;
