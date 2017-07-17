@@ -65,20 +65,24 @@ input {
   border: 0 none;
   padding: 0;
 }
+/* line 67, assets\less\common.less */
+button {
+  background-color: transparent;
+}
 /*option*/
-/* line 70, assets\less\common.less */
+/* line 71, assets\less\common.less */
 .fl {
   float: left;
 }
-/* line 71, assets\less\common.less */
+/* line 72, assets\less\common.less */
 .fr {
   float: right;
 }
-/* line 72, assets\less\common.less */
+/* line 73, assets\less\common.less */
 fieldset {
   border: 0;
 }
-/* line 73, assets\less\common.less */
+/* line 74, assets\less\common.less */
 legend {
   font-size: 0;
   text-indent: -9999px;
@@ -86,11 +90,11 @@ legend {
   top: -9999px;
   left: -9999px;
 }
-/* line 74, assets\less\common.less */
+/* line 75, assets\less\common.less */
 input {
   vertical-align: middle;
 }
-/* line 76, assets\less\common.less */
+/* line 77, assets\less\common.less */
 header {
   width: 100%;
   height: 96px;
@@ -100,53 +104,53 @@ header {
   z-index: 20000;
   box-shadow: 0 5px 10px rgba(186, 186, 186, 0.5);
 }
-/* line 85, assets\less\common.less */
+/* line 86, assets\less\common.less */
 header .gnb {
   width: 1240px;
   height: 96px;
   margin: 0 auto;
 }
-/* line 90, assets\less\common.less */
+/* line 91, assets\less\common.less */
 header .gnb .logo {
   width: 60px;
   height: 51px;
   margin: 25px 75px 0 30px;
 }
-/* line 94, assets\less\common.less */
+/* line 95, assets\less\common.less */
 header .gnb .logo img {
   width: 80%;
 }
-/* line 98, assets\less\common.less */
+/* line 99, assets\less\common.less */
 header .gnb .site_option {
   margin-top: 39px;
 }
-/* line 100, assets\less\common.less */
+/* line 101, assets\less\common.less */
 header .gnb .site_option img {
   width: 13%;
 }
-/* line 107, assets\less\common.less */
+/* line 108, assets\less\common.less */
 header .gnb .site_option .login {
   margin-left: 24px;
 }
-/* line 110, assets\less\common.less */
+/* line 111, assets\less\common.less */
 header .gnb .site_option .sitemap {
   margin-left: 24px;
 }
-/* line 114, assets\less\common.less */
+/* line 115, assets\less\common.less */
 header .gnb .menu {
   width: 884px;
   margin-left: 240px;
 }
-/* line 117, assets\less\common.less */
+/* line 118, assets\less\common.less */
 header .gnb .menu li {
   float: left;
   margin: 42px 70px 0 0;
 }
-/* line 120, assets\less\common.less */
+/* line 121, assets\less\common.less */
 header .gnb .menu li a {
   font-size: 18px;
 }
-/* line 123, assets\less\common.less */
+/* line 124, assets\less\common.less */
 header .gnb .menu li img {
   width: 80%;
 }
@@ -250,11 +254,22 @@ header .gnb .menu li img {
   height: 15px;
   margin: 8px 0 5px;
 }
-/* line 92, assets\less\style.less */
-.main_page section .section1 .section1_contents .btn_more img {
+/* line 91, assets\less\style.less */
+.main_page section .section1 .section1_contents .btn_more {
   margin-top: 15px;
+  padding: 7px 24px;
+  border-radius: 3px;
+  box-sizing: border-box;
+  border: 0.5px #ADA29F solid;
+  color: #ADA29F;
+  font-size: 13px;
 }
 /* line 100, assets\less\style.less */
+.main_page section .section1 .section1_contents .btn_more:hover {
+  background-color: #ADA29F;
+  color: #FFF;
+}
+/* line 109, assets\less\style.less */
 .main_page section .section2 {
   width: 100%;
   height: 568px;
@@ -263,28 +278,28 @@ header .gnb .menu li img {
   text-align: center;
   background-color: #e5e2e3;
 }
-/* line 107, assets\less\style.less */
+/* line 116, assets\less\style.less */
 .main_page section .section2 .section2_contents {
   width: 100%;
   height: 300px;
   margin-top: 10px;
   margin-left: -100px;
 }
-/* line 112, assets\less\style.less */
+/* line 121, assets\less\style.less */
 .main_page section .section2 .section2_contents ul {
   width: 150%;
 }
-/* line 114, assets\less\style.less */
+/* line 123, assets\less\style.less */
 .main_page section .section2 .section2_contents ul li {
   float: left;
   width: 300px;
   height: 300px;
 }
-/* line 118, assets\less\style.less */
+/* line 127, assets\less\style.less */
 .main_page section .section2 .section2_contents ul li img {
   width: 100%;
 }
-/* line 125, assets\less\style.less */
+/* line 134, assets\less\style.less */
 .main_page section .section3 {
   display: none;
   width: 100%;
@@ -294,13 +309,13 @@ header .gnb .menu li img {
   text-align: center;
   background-color: #CCC;
 }
-/* line 133, assets\less\style.less */
+/* line 142, assets\less\style.less */
 .main_page section .section3 .section3_contents {
   width: 100%;
   height: 300px;
   margin-top: 10px;
 }
-/* line 138, assets\less\style.less */
+/* line 147, assets\less\style.less */
 .main_page section .section3 .section3_contents ul li {
   outline: 1px #AAA solid;
   display: inline-block;
@@ -308,11 +323,11 @@ header .gnb .menu li img {
   width: 169px;
   height: 240px;
 }
-/* line 144, assets\less\style.less */
+/* line 153, assets\less\style.less */
 .main_page section .section3 .section3_contents ul li img {
   width: 100%;
 }
-/* line 151, assets\less\style.less */
+/* line 160, assets\less\style.less */
 .main_page section .footer {
   width: 100%;
   height: 672px;
@@ -322,24 +337,24 @@ header .gnb .menu li img {
   background-color: #24292D;
   position: relative;
 }
-/* line 160, assets\less\style.less */
+/* line 169, assets\less\style.less */
 .main_page section .footer .footer_sb span {
   letter-spacing: 3px;
   font-size: 22px;
   font-weight: 600;
   color: #E5E5E5;
 }
-/* line 165, assets\less\style.less */
+/* line 174, assets\less\style.less */
 .main_page section .footer .footer_sb span img {
   margin: 23px 0 21px;
 }
-/* line 170, assets\less\style.less */
+/* line 179, assets\less\style.less */
 .main_page section .footer .footer_txt {
   color: #70828E;
   font-size: 17px;
   line-height: 35px;
 }
-/* line 175, assets\less\style.less */
+/* line 184, assets\less\style.less */
 .main_page section .footer .footer_txt + span {
   color: #E5E5E5;
   font-weight: 600;
@@ -347,7 +362,7 @@ header .gnb .menu li img {
   margin: 50px 0 30px;
   letter-spacing: 2px;
 }
-/* line 182, assets\less\style.less */
+/* line 191, assets\less\style.less */
 .main_page section .footer input[type="text"] {
   width: 299px;
   height: 52px;
@@ -358,7 +373,7 @@ header .gnb .menu li img {
   padding-left: 20px;
   box-sizing: border-box;
 }
-/* line 192, assets\less\style.less */
+/* line 201, assets\less\style.less */
 .main_page section .footer input[type="submit"] {
   width: 55px;
   height: 52px;
@@ -369,22 +384,22 @@ header .gnb .menu li img {
   background-repeat: no-repeat;
   background-position: center;
 }
-/* line 203, assets\less\style.less */
+/* line 212, assets\less\style.less */
 .main_page section .footer .sns img {
-  margin-top: 20px;
+  margin-top: 50px;
   margin-right: 20px;
 }
-/* line 207, assets\less\style.less */
+/* line 216, assets\less\style.less */
 .main_page section .footer .sns img:last-child {
   margin-right: 0;
 }
-/* line 211, assets\less\style.less */
+/* line 220, assets\less\style.less */
 .main_page section .footer .footer_bottom {
   position: absolute;
   bottom: 0;
   left: 0;
 }
-/* line 215, assets\less\style.less */
+/* line 224, assets\less\style.less */
 .main_page section .footer .footer_bottom span {
   position: absolute;
   bottom: 36px;
@@ -393,11 +408,11 @@ header .gnb .menu li img {
   font-size: 10px;
   letter-spacing: 3px;
 }
-/* line 223, assets\less\style.less */
+/* line 232, assets\less\style.less */
 .main_page section .footer .footer_bottom span:nth-child(1) {
   margin-left: 465px;
 }
-/* line 226, assets\less\style.less */
+/* line 235, assets\less\style.less */
 .main_page section .footer .footer_bottom span:nth-child(2) {
   margin-left: 1300px;
 }
@@ -3365,37 +3380,42 @@ header .gnb .menu li img {
 }
 /* line 31, assets\less\popup.less */
 #login_box .login .right {
+  padding: 14px;
+  box-sizing: border-box;
   text-align: center;
   margin-left: 638px;
   width: 402px;
   height: 600px;
   background-color: rgba(255, 255, 255, 0.9);
 }
-/* line 39, assets\less\popup.less */
+/* line 41, assets\less\popup.less */
 #login_box .login .right div img {
   width: 134px;
   height: 134px;
-  margin: 75px auto 0;
+  margin: 61px auto 0;
 }
-/* line 45, assets\less\popup.less */
+/* line 47, assets\less\popup.less */
 #login_box .login .right .close {
   background-image: url(../images/source/close.png);
   background-repeat: no-repeat;
   background-position: 0 0;
+  width: 12px;
+  height: 12px;
+  background-color: transparent;
 }
-/* line 50, assets\less\popup.less */
+/* line 55, assets\less\popup.less */
 #login_box .login .right .signup {
-  margin: 58px auto 34px;
+  margin: 52px auto 34px;
 }
-/* line 52, assets\less\popup.less */
+/* line 57, assets\less\popup.less */
 #login_box .login .right .signup span:nth-child(1) {
   color: #5B5B5B;
 }
-/* line 55, assets\less\popup.less */
+/* line 60, assets\less\popup.less */
 #login_box .login .right .signup span:nth-child(2) {
   color: #C4C4C4;
 }
-/* line 60, assets\less\popup.less */
+/* line 65, assets\less\popup.less */
 #login_box .login .right fieldset input[type="text"] {
   width: 332px;
   height: 50px;
@@ -3408,7 +3428,7 @@ header .gnb .menu li img {
   margin-bottom: 8px;
   box-sizing: border-box;
 }
-/* line 72, assets\less\popup.less */
+/* line 77, assets\less\popup.less */
 #login_box .login .right fieldset input[type="button"] {
   width: 332px;
   height: 50px;
@@ -3416,7 +3436,7 @@ header .gnb .menu li img {
   font-size: 16px;
   color: #FFF;
 }
-/* line 80, assets\less\popup.less */
+/* line 85, assets\less\popup.less */
 #login_box .login .right .search_password {
   color: #C4C4C4;
   font-size: 16px;
