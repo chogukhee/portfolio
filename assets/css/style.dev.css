@@ -751,29 +751,43 @@ header .gnb .menu li img {
 .recipe1_page .contents .bottom_section .comment .re {
   margin-left: 50px;
 }
-/* line 288, assets\less\recipe1.less */
+/* line 285, assets\less\recipe1.less */
+.recipe1_page .contents .bottom_section .paging {
+  margin: 0 auto;
+  font-size: 12px;
+}
+/* line 289, assets\less\recipe1.less */
+.recipe1_page .contents .bottom_section .paging span {
+  margin-right: 10px;
+  color: ##ABABAB;
+}
+/* line 292, assets\less\recipe1.less */
+.recipe1_page .contents .bottom_section .paging span img {
+  vertical-align: middle;
+}
+/* line 299, assets\less\recipe1.less */
 .recipe1_page .copyright {
   width: 1240px;
   height: 40px;
   line-height: 40px;
   margin: 0 auto;
 }
-/* line 293, assets\less\recipe1.less */
+/* line 304, assets\less\recipe1.less */
 .recipe1_page .copyright span {
   float: left;
   color: #ABABAB;
   font-size: 14px;
   margin-left: 30px;
 }
-/* line 299, assets\less\recipe1.less */
+/* line 310, assets\less\recipe1.less */
 .recipe1_page .copyright span:nth-child(2) {
   margin-left: 542px;
 }
-/* line 302, assets\less\recipe1.less */
+/* line 313, assets\less\recipe1.less */
 .recipe1_page .copyright span:nth-child(3) {
   margin-left: 50px;
 }
-/* line 304, assets\less\recipe1.less */
+/* line 315, assets\less\recipe1.less */
 .recipe1_page .copyright span:nth-child(3) img {
   vertical-align: middle;
 }
@@ -3454,4 +3468,41 @@ header .gnb .menu li img {
   font-size: 16px;
   margin-top: 46px;
   display: block;
+}
+/* line 1, assets\less\mypage.less */
+.mypage {
+  background-color: #f4f5f7;
+}
+/* line 3, assets\less\mypage.less */
+.mypage .sub_header {
+  background-color: #F8FBFC;
+}
+/* line 6, assets\less\mypage.less */
+.mypage .wrapper {
+  position: relative;
+  text-align: center;
+  width: 1240px;
+  height: 100%;
+  padding: 80px 100px 40px;
+  box-sizing: border-box;
+  margin: 130px auto 0;
+  background-color: #fff;
+  border-radius: 7px;
+  overflow: hidden;
+}
+/* line 19, assets\less\mypage.less */
+.mypage .wrapper span[class$="_sb"] span {
+  display: block;
+  font-size: 21px;
+  color: #231f20;
+}
+/* line 23, assets\less\mypage.less */
+.mypage .wrapper span[class$="_sb"] span img {
+  margin: 20px 0 21px;
+}
+/* line 29, assets\less\mypage.less */
+.mypage .wrapper span[class$="_txt"] span {
+  color: #868686;
+  font-size: 15px;
+  line-height: 29px;
 }
