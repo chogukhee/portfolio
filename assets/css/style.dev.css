@@ -68,6 +68,7 @@ input {
 /* line 67, assets\less\common.less */
 button {
   background-color: transparent;
+  border: 0 none;
 }
 /*option*/
 /* line 71, assets\less\common.less */
@@ -3320,6 +3321,497 @@ header .gnb .menu li img {
   vertical-align: middle;
   margin: 10px;
 }
+/* line 74, assets\less\food_tip.less */
+.food_tip_page .copyright {
+  width: 1240px;
+  height: 40px;
+  line-height: 40px;
+  margin: 0 auto;
+}
+/* line 79, assets\less\food_tip.less */
+.food_tip_page .copyright span {
+  float: left;
+  color: #ABABAB;
+  font-size: 14px;
+  margin-left: 30px;
+}
+/* line 85, assets\less\food_tip.less */
+.food_tip_page .copyright span:nth-child(2) {
+  margin-left: 542px;
+}
+/* line 88, assets\less\food_tip.less */
+.food_tip_page .copyright span:nth-child(3) {
+  margin-left: 50px;
+}
+/* line 90, assets\less\food_tip.less */
+.food_tip_page .copyright span:nth-child(3) img {
+  vertical-align: middle;
+}
+/* line 1, assets\less\food_tip1.less */
+.dn {
+  display: none;
+}
+/* line 3, assets\less\food_tip1.less */
+.food_tip1_page {
+  background-color: #f4f5f7;
+}
+/* line 5, assets\less\food_tip1.less */
+.food_tip1_page .sub_header {
+  background-color: #F8FBFC;
+}
+/* line 8, assets\less\food_tip1.less */
+.food_tip1_page .contents {
+  position: relative;
+  text-align: center;
+  width: 1240px;
+  height: 100%;
+  padding: 80px 0 40px;
+  margin: 130px auto 0;
+  background-color: #fff;
+  border-radius: 7px;
+  overflow: hidden;
+}
+/* line 18, assets\less\food_tip1.less */
+.food_tip1_page .contents span[class$="_sb"] {
+  color: #676767;
+  font-size: 14px;
+  display: block;
+  margin: 50px 0 20px 110px;
+  text-align: left;
+}
+/* line 24, assets\less\food_tip1.less */
+.food_tip1_page .contents span[class$="_sb"] img {
+  margin-right: 10px;
+  vertical-align: middle;
+}
+/* line 29, assets\less\food_tip1.less */
+.food_tip1_page .contents span[class$="_txt"] {
+  color: #ABABAB;
+  font-size: 12px;
+  text-align: left;
+  display: block;
+  margin-left: 110px;
+}
+/* line 37, assets\less\food_tip1.less */
+.food_tip1_page .contents .top_section .subject {
+  padding-bottom: 13px;
+}
+/* line 39, assets\less\food_tip1.less */
+.food_tip1_page .contents .top_section .subject span {
+  display: block;
+  text-align: center;
+}
+/* line 43, assets\less\food_tip1.less */
+.food_tip1_page .contents .top_section .subject span:nth-child(1) {
+  text-transform: capitalize;
+  font-size: 23px;
+  color: #5C5C5C;
+}
+/* line 48, assets\less\food_tip1.less */
+.food_tip1_page .contents .top_section .subject span:nth-child(2) {
+  text-transform: uppercase;
+  font-size: 13px;
+  color: #B0B0B0;
+}
+/* line 54, assets\less\food_tip1.less */
+.food_tip1_page .contents .top_section .quotation {
+  width: 515px;
+  margin: 0 auto;
+  overflow: hidden;
+  margin: 0 auto 25px;
+}
+/* line 60, assets\less\food_tip1.less */
+.food_tip1_page .contents .top_section .quotation span:nth-child(1) {
+  float: left;
+}
+/* line 66, assets\less\food_tip1.less */
+.food_tip1_page .contents .top_section .quotation span:nth-child(2) {
+  float: right;
+}
+/* line 68, assets\less\food_tip1.less */
+.food_tip1_page .contents .top_section .quotation span:nth-child(2) img {
+  margin-top: 30px;
+}
+/* line 73, assets\less\food_tip1.less */
+.food_tip1_page .contents .top_section .txt {
+  font-size: 14px;
+  color: #838383;
+  overflow: visible;
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+}
+/* line 82, assets\less\food_tip1.less */
+.food_tip1_page .contents .top_section .img img {
+  width: 640px;
+  margin-bottom: 58px;
+}
+/* line 87, assets\less\food_tip1.less */
+.food_tip1_page .contents .top_section .summary {
+  width: 845px;
+  height: 58px;
+  line-height: 58px;
+  border-top: 0.25px #D3D1D1 solid;
+  border-bottom: 0.25px #D3D1D1 solid;
+  margin: 0 auto;
+  float: none;
+  color: #5C5C5C;
+}
+/* line 97, assets\less\food_tip1.less */
+.food_tip1_page .contents .top_section .summary ul li {
+  padding: 0 5px;
+  display: inline-block;
+  text-align: center;
+  background-image: url(../images/source/bar2.png);
+  background-repeat: no-repeat;
+  background-position: 0 center;
+}
+/* line 104, assets\less\food_tip1.less */
+.food_tip1_page .contents .top_section .summary ul li img {
+  vertical-align: middle;
+  margin: 0 5px 0 10px;
+}
+/* line 109, assets\less\food_tip1.less */
+.food_tip1_page .contents .top_section .summary ul li:first-child {
+  background: none;
+}
+/* line 116, assets\less\food_tip1.less */
+.food_tip1_page .contents .top_section .subject {
+  padding-bottom: 13px;
+}
+/* line 118, assets\less\food_tip1.less */
+.food_tip1_page .contents .top_section .subject span {
+  display: block;
+  text-align: center;
+}
+/* line 122, assets\less\food_tip1.less */
+.food_tip1_page .contents .top_section .subject span:nth-child(1) {
+  text-transform: capitalize;
+  font-size: 23px;
+  color: #5C5C5C;
+}
+/* line 127, assets\less\food_tip1.less */
+.food_tip1_page .contents .top_section .subject span:nth-child(2) {
+  text-transform: uppercase;
+  font-size: 13px;
+  color: #B0B0B0;
+}
+/* line 133, assets\less\food_tip1.less */
+.food_tip1_page .contents .top_section .quotation {
+  width: 515px;
+  margin: 0 auto;
+  overflow: hidden;
+  margin: 0 auto 25px;
+}
+/* line 139, assets\less\food_tip1.less */
+.food_tip1_page .contents .top_section .quotation span:nth-child(1) {
+  float: left;
+}
+/* line 145, assets\less\food_tip1.less */
+.food_tip1_page .contents .top_section .quotation span:nth-child(2) {
+  float: right;
+}
+/* line 147, assets\less\food_tip1.less */
+.food_tip1_page .contents .top_section .quotation span:nth-child(2) img {
+  margin-top: 30px;
+}
+/* line 152, assets\less\food_tip1.less */
+.food_tip1_page .contents .top_section .txt {
+  font-size: 14px;
+  color: #838383;
+  overflow: visible;
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+}
+/* line 161, assets\less\food_tip1.less */
+.food_tip1_page .contents .top_section .img img {
+  width: 640px;
+  margin-bottom: 58px;
+}
+/* line 166, assets\less\food_tip1.less */
+.food_tip1_page .contents .top_section .summary {
+  width: 845px;
+  height: 58px;
+  line-height: 58px;
+  border-top: 0.25px #D3D1D1 solid;
+  border-bottom: 0.25px #D3D1D1 solid;
+  margin: 0 auto;
+  float: none;
+  color: #5C5C5C;
+}
+/* line 176, assets\less\food_tip1.less */
+.food_tip1_page .contents .top_section .summary ul li {
+  padding: 0 5px;
+  display: inline-block;
+  text-align: center;
+  background-image: url(../images/source/bar2.png);
+  background-repeat: no-repeat;
+  background-position: 0 center;
+}
+/* line 183, assets\less\food_tip1.less */
+.food_tip1_page .contents .top_section .summary ul li img {
+  vertical-align: middle;
+  margin: 0 5px 0 10px;
+}
+/* line 188, assets\less\food_tip1.less */
+.food_tip1_page .contents .top_section .summary ul li:first-child {
+  background: none;
+}
+/* line 194, assets\less\food_tip1.less */
+.food_tip1_page .contents .left_section {
+  width: 815px;
+  height: 100%;
+}
+/* line 198, assets\less\food_tip1.less */
+.food_tip1_page .contents .left_section .directions p {
+  margin-bottom: 30px;
+}
+/* line 203, assets\less\food_tip1.less */
+.food_tip1_page .contents .left_section .steps span[class^="step_"] {
+  overflow: hidden;
+  height: 100%;
+}
+/* line 206, assets\less\food_tip1.less */
+.food_tip1_page .contents .left_section .steps span[class^="step_"] p {
+  margin-bottom: 30px;
+}
+/* line 210, assets\less\food_tip1.less */
+.food_tip1_page .contents .left_section .steps .step_icon {
+  margin: 0 10px 0 0;
+}
+/* line 212, assets\less\food_tip1.less */
+.food_tip1_page .contents .left_section .steps .step_icon img {
+  vertical-align: middle;
+}
+/* line 216, assets\less\food_tip1.less */
+.food_tip1_page .contents .left_section .steps .step_img {
+  width: 615px;
+  height: 200px;
+  color: #ABABAB;
+  font-size: 12px;
+}
+/* line 221, assets\less\food_tip1.less */
+.food_tip1_page .contents .left_section .steps .step_img img {
+  width: 200px;
+  height: 200px;
+  margin: 0 5px 20px 0;
+}
+/* line 228, assets\less\food_tip1.less */
+.food_tip1_page .contents .left_section .tag {
+  clear: both;
+}
+/* line 232, assets\less\food_tip1.less */
+.food_tip1_page .contents .right_section {
+  position: absolute;
+  right: 0;
+  width: 300px;
+  margin-right: 110px;
+}
+/* line 237, assets\less\food_tip1.less */
+.food_tip1_page .contents .right_section span[class$="_sb"] {
+  color: #676767;
+  font-size: 14px;
+  display: block;
+  margin: 0 auto 15px;
+  padding-top: 15px;
+  text-align: center;
+}
+/* line 244, assets\less\food_tip1.less */
+.food_tip1_page .contents .right_section span[class$="_sb"] img {
+  margin-right: 10px;
+}
+/* line 248, assets\less\food_tip1.less */
+.food_tip1_page .contents .right_section span[class$="_txt"] {
+  margin-left: 0;
+  text-align: center;
+  margin-bottom: -4px;
+}
+/* line 252, assets\less\food_tip1.less */
+.food_tip1_page .contents .right_section span[class$="_txt"] li {
+  color: #ABABAB;
+  font-size: 12px;
+  display: block;
+  height: 20px;
+  line-height: 20px;
+  margin: 7px auto ;
+  text-align: left;
+  padding-bottom: 3px;
+  border-bottom: 1px #E7E7E7 solid;
+}
+/* line 262, assets\less\food_tip1.less */
+.food_tip1_page .contents .right_section span[class$="_txt"] li img {
+  margin: 4px 13px 0;
+}
+/* line 266, assets\less\food_tip1.less */
+.food_tip1_page .contents .right_section span[class$="_txt"] li:last-child {
+  border: none;
+}
+/* line 270, assets\less\food_tip1.less */
+.food_tip1_page .contents .right_section .ingredient {
+  outline: 3px #F4F5F7 solid;
+  width: 274px;
+  height: 100%;
+  border-radius: 4px;
+  margin: 50px 0 0 23px;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+/* line 279, assets\less\food_tip1.less */
+.food_tip1_page .contents .right_section .nutritional_information {
+  outline: 3px #F4F5F7 solid;
+  width: 274px;
+  height: 223px;
+  padding: 0 10px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin: 50px 0 0 23px;
+}
+/* line 287, assets\less\food_tip1.less */
+.food_tip1_page .contents .right_section .nutritional_information ul {
+  width: 300px;
+}
+/* line 289, assets\less\food_tip1.less */
+.food_tip1_page .contents .right_section .nutritional_information ul li {
+  float: left;
+  width: 77px;
+  height: 77px;
+  background-color: #F4F5F7;
+  border-radius: 4px;
+  margin: 0 10px 10px 0;
+  padding-top: 20px;
+  box-sizing: border-box;
+}
+/* line 298, assets\less\food_tip1.less */
+.food_tip1_page .contents .right_section .nutritional_information ul li span {
+  display: block;
+  text-align: center;
+}
+/* line 302, assets\less\food_tip1.less */
+.food_tip1_page .contents .right_section .nutritional_information ul li span:nth-last-child(even) {
+  color: #676767;
+  font-weight: 500;
+}
+/* line 306, assets\less\food_tip1.less */
+.food_tip1_page .contents .right_section .nutritional_information ul li span:nth-last-child(odd) {
+  color: #ABABAB;
+}
+/* line 310, assets\less\food_tip1.less */
+.food_tip1_page .contents .right_section .nutritional_information ul li.a {
+  margin-right: 0;
+}
+/* line 315, assets\less\food_tip1.less */
+.food_tip1_page .contents .right_section .bookmark {
+  outline: 3px #F4F5F7 solid;
+  width: 274px;
+  height: 140px;
+  border-radius: 4px;
+  margin: 50px 0 0 23px;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+/* line 323, assets\less\food_tip1.less */
+.food_tip1_page .contents .right_section .bookmark .bookmark_txt {
+  background-color: #F4F5F7;
+  padding: 25px 0;
+  box-sizing: border-box;
+}
+/* line 332, assets\less\food_tip1.less */
+.food_tip1_page .contents .bottom_section .related_recipe {
+  width: 100%;
+  margin-bottom: 30px;
+}
+/* line 335, assets\less\food_tip1.less */
+.food_tip1_page .contents .bottom_section .related_recipe ul {
+  overflow: hidden;
+}
+/* line 337, assets\less\food_tip1.less */
+.food_tip1_page .contents .bottom_section .related_recipe ul li {
+  float: left;
+  width: 20%;
+}
+/* line 340, assets\less\food_tip1.less */
+.food_tip1_page .contents .bottom_section .related_recipe ul li img {
+  width: 100%;
+}
+/* line 347, assets\less\food_tip1.less */
+.food_tip1_page .contents .bottom_section .comment li {
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+/* line 350, assets\less\food_tip1.less */
+.food_tip1_page .contents .bottom_section .comment li .profile {
+  float: left;
+  margin-right: 10px;
+}
+/* line 354, assets\less\food_tip1.less */
+.food_tip1_page .contents .bottom_section .comment li span {
+  display: block;
+  margin-bottom: 3px;
+}
+/* line 357, assets\less\food_tip1.less */
+.food_tip1_page .contents .bottom_section .comment li span img {
+  vertical-align: middle;
+}
+/* line 362, assets\less\food_tip1.less */
+.food_tip1_page .contents .bottom_section .comment .re {
+  margin-left: 50px;
+}
+/* line 366, assets\less\food_tip1.less */
+.food_tip1_page .contents .bottom_section .paging {
+  margin: 0 auto;
+  font-size: 12px;
+}
+/* line 370, assets\less\food_tip1.less */
+.food_tip1_page .contents .bottom_section .paging span {
+  margin-right: 10px;
+  color: ##ABABAB;
+}
+/* line 373, assets\less\food_tip1.less */
+.food_tip1_page .contents .bottom_section .paging span img {
+  vertical-align: middle;
+}
+/* line 379, assets\less\food_tip1.less */
+.food_tip1_page .contents .btn_more {
+  margin-top: 15px;
+  padding: 7px 24px;
+  border-radius: 3px;
+  box-sizing: border-box;
+  border: 0.5px #ADA29F solid;
+  color: #ADA29F;
+  font-size: 13px;
+}
+/* line 388, assets\less\food_tip1.less */
+.food_tip1_page .contents .btn_more:hover {
+  background-color: #ADA29F;
+  color: #FFF;
+}
+/* line 394, assets\less\food_tip1.less */
+.food_tip1_page .copyright {
+  width: 1240px;
+  height: 40px;
+  line-height: 40px;
+  margin: 0 auto;
+}
+/* line 399, assets\less\food_tip1.less */
+.food_tip1_page .copyright span {
+  float: left;
+  color: #ABABAB;
+  font-size: 14px;
+  margin-left: 30px;
+}
+/* line 405, assets\less\food_tip1.less */
+.food_tip1_page .copyright span:nth-child(2) {
+  margin-left: 542px;
+}
+/* line 408, assets\less\food_tip1.less */
+.food_tip1_page .copyright span:nth-child(3) {
+  margin-left: 50px;
+}
+/* line 410, assets\less\food_tip1.less */
+.food_tip1_page .copyright span:nth-child(3) img {
+  vertical-align: middle;
+}
 /* line 1, assets\less\event_notice.less */
 .event_notice_page {
   background-color: #f4f5f7;
@@ -3375,6 +3867,32 @@ header .gnb .menu li img {
   margin-bottom: 25px;
   margin-right: 25px;
   float: left;
+}
+/* line 54, assets\less\event_notice.less */
+.event_notice_page .copyright {
+  width: 1240px;
+  height: 40px;
+  line-height: 40px;
+  margin: 0 auto;
+}
+/* line 59, assets\less\event_notice.less */
+.event_notice_page .copyright span {
+  float: left;
+  color: #ABABAB;
+  font-size: 14px;
+  margin-left: 30px;
+}
+/* line 65, assets\less\event_notice.less */
+.event_notice_page .copyright span:nth-child(2) {
+  margin-left: 542px;
+}
+/* line 68, assets\less\event_notice.less */
+.event_notice_page .copyright span:nth-child(3) {
+  margin-left: 50px;
+}
+/* line 70, assets\less\event_notice.less */
+.event_notice_page .copyright span:nth-child(3) img {
+  vertical-align: middle;
 }
 /* line 6, assets\less\popup.less */
 #login_box .login {
@@ -3505,4 +4023,59 @@ header .gnb .menu li img {
   color: #868686;
   font-size: 15px;
   line-height: 29px;
+}
+/* line 35, assets\less\mypage.less */
+.mypage .wrapper .contents {
+  padding-top: 63px;
+  overflow: hidden;
+}
+/* line 38, assets\less\mypage.less */
+.mypage .wrapper .contents li {
+  display: inline-block;
+  width: 296px;
+  height: 183px;
+  margin-right: 10px;
+}
+/* line 44, assets\less\mypage.less */
+.mypage .wrapper .contents li span {
+  display: block;
+  margin: 0 auto;
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: #868686;
+}
+/* line 50, assets\less\mypage.less */
+.mypage .wrapper .contents li span strong {
+  font-size: 15px;
+  color: #231f20;
+}
+/* line 57, assets\less\mypage.less */
+.mypage .wrapper .contents li:last-child {
+  margin-right: 0;
+}
+/* line 62, assets\less\mypage.less */
+.mypage .copyright {
+  width: 1240px;
+  height: 40px;
+  line-height: 40px;
+  margin: 0 auto;
+}
+/* line 67, assets\less\mypage.less */
+.mypage .copyright span {
+  float: left;
+  color: #ABABAB;
+  font-size: 14px;
+  margin-left: 30px;
+}
+/* line 73, assets\less\mypage.less */
+.mypage .copyright span:nth-child(2) {
+  margin-left: 542px;
+}
+/* line 76, assets\less\mypage.less */
+.mypage .copyright span:nth-child(3) {
+  margin-left: 50px;
+}
+/* line 78, assets\less\mypage.less */
+.mypage .copyright span:nth-child(3) img {
+  vertical-align: middle;
 }
