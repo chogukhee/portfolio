@@ -1,74 +1,98 @@
 .food_tip_page {
-    background-color: #f4f5f7;
-    .sub_header {
-        background-color: #F8FBFC;
+  background-color: #f4f5f7;
+  .sub_header {
+    background-color: #F8FBFC;
+  }
+  .wrapper {
+    // font-family: 'Noto sans KR light';
+    position:relative;
+    text-align: center;
+    width: 1240px;
+    height: 100%;
+    padding: 80px 100px 40px;
+    box-sizing: border-box;
+    margin: 130px auto 0;
+    background-color: #fff;
+    border-radius: 7px;
+    overflow: hidden;
+    span[class$="_sb"] {
+      span {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 500;
+        display: block;
+        font-size: 19px;
+        color: #231f20;
+        img {
+          margin: 20px 0 21px;
+        }
+      }
     }
-    .wrapper {
-        // font-family: 'Noto sans KR light';
-        position:relative;
-        text-align: center;
-        width: 1240px;
-        height: 100%;
-        padding: 80px 100px 40px;
-        box-sizing: border-box;
-        margin: 130px auto 0;
-        background-color: #fff;
-        border-radius: 7px;
-        overflow: hidden;
-        span[class$="_sb"] {
-            span {
-                display: block;
-                font-size: 21px;
-                color: #231f20;
-                img {
-                    margin: 20px 0 21px;
-                }
-            }
-        }
-        span[class$="_txt"] {
-            span {
-                color: #868686;
-                font-size: 15px;
-                line-height: 29px;
-            }
-        }
-        .contents {
-            padding:63px 0;
-            // box-sizing: border-box;
-            li {
-                position: relative;
-                padding: 0 100px;
-                height: 280px;
-                border-bottom: 1px #dbdbdb solid;
-                text-align: left;
-                .picture {
-                    float: left;
-                    img {
-                        margin-top:17.5px;
-                    }
-                }
-                .txt_ {
-                    float: left;
-                    margin-left:25px;
-                    margin-top: 100px;
-                    div {
-                        font-size: 18zpx;
-                        color:#231F20;
-                        line-height: 30px;
-                    }
-                    span {
-                        font-size: 14px;
-                        color:#6B6B6B;
-                        background-image: url(../images/source/small_bar.png);
-                        background-repeat: no-repeat;
-                        background-position: 0 3px;
-                        img {
-                            vertical-align: middle;
-                            margin:10px;
-                        }
-                    }
-                }
-            }
-        }
+    span[class$="_txt"] {
+      span {
+        font-family: 'Raleway', sans-serif;
+        color: #868686;
+        font-size: 13px;
+        line-height: 22px;
+      }
     }
+    .contents {
+      padding:63px 0;
+      // box-sizing: border-box;
+      li {
+        position: relative;
+        padding: 0 100px;
+        height: 280px;
+        border-bottom: 1px #dbdbdb solid;
+        text-align: left;
+        .picture {
+          float: left;
+          img {
+            margin-top:17.5px;
+          }
+        }
+        .txt_ {
+          float: left;
+          margin-left:25px;
+          margin-top: 100px;
+          div {
+            font-size: 18zpx;
+            color:#231F20;
+            line-height: 30px;
+          }
+          span {
+            font-size: 14px;
+            color:#6B6B6B;
+            background-image: url(../images/source/small_bar.png);
+            background-repeat: no-repeat;
+            background-position: 0 3px;
+            img {
+              vertical-align: middle;
+              margin:10px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .copyright {
+    width: 1240px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 auto;
+    span {
+      float:left;
+      color:#ABABAB;
+      font-size: 14px;
+      margin-left: 30px;
+    }
+    span:nth-child(2){
+      margin-left: 542px;
+    }
+    span:nth-child(3){
+      margin-left: 50px;
+      img {
+        vertical-align: middle;
+      }
+    }
+  }
 }
