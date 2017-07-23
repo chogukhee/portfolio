@@ -140,8 +140,8 @@ header .gnb .site_option .sitemap {
 }
 /* line 115, assets\less\common.less */
 header .gnb .menu {
-  width: 884px;
-  margin-left: 240px;
+  width: 679px;
+  margin: 0 auto;
 }
 /* line 118, assets\less\common.less */
 header .gnb .menu li {
@@ -289,7 +289,7 @@ header .gnb .menu li img {
 /* line 127, assets\less\style.less */
 .main_page section .section2 {
   width: 100%;
-  height: 568px;
+  height: 600px;
   padding: 80px 0 50px 0;
   box-sizing: border-box;
   text-align: center;
@@ -299,7 +299,7 @@ header .gnb .menu li img {
 .main_page section .section2 .section2_contents {
   width: 100%;
   height: 300px;
-  margin-top: 10px;
+  margin-top: 40px;
   margin-left: -100px;
 }
 /* line 139, assets\less\style.less */
@@ -3821,15 +3821,15 @@ header .gnb .menu li img {
 .food_tip1_page .copyright span:nth-child(3) img {
   vertical-align: middle;
 }
-/* line 1, assets\less\event_notice.less */
+/* line 1, assets\less\notice.less */
 .event_notice_page {
   background-color: #f4f5f7;
 }
-/* line 3, assets\less\event_notice.less */
+/* line 3, assets\less\notice.less */
 .event_notice_page .sub_header {
   background-color: #F8FBFC;
 }
-/* line 6, assets\less\event_notice.less */
+/* line 6, assets\less\notice.less */
 .event_notice_page .wrapper {
   width: 1240px;
   height: 100%;
@@ -3841,7 +3841,7 @@ header .gnb .menu li img {
   border-radius: 7px;
   text-align: center;
 }
-/* line 17, assets\less\event_notice.less */
+/* line 17, assets\less\notice.less */
 .event_notice_page .wrapper span[class$="_sb"] span {
   font-family: 'Raleway', sans-serif;
   font-weight: 500;
@@ -3849,60 +3849,60 @@ header .gnb .menu li img {
   font-size: 19px;
   color: #231f20;
 }
-/* line 23, assets\less\event_notice.less */
+/* line 23, assets\less\notice.less */
 .event_notice_page .wrapper span[class$="_sb"] span img {
   margin: 20px 0 21px;
 }
-/* line 29, assets\less\event_notice.less */
+/* line 29, assets\less\notice.less */
 .event_notice_page .wrapper span[class$="_txt"] span {
   font-family: 'Raleway', sans-serif;
   color: #868686;
   font-size: 13px;
   line-height: 22px;
 }
-/* line 36, assets\less\event_notice.less */
+/* line 36, assets\less\notice.less */
 .event_notice_page .wrapper .contents {
   padding-top: 63px;
   overflow: hidden;
 }
-/* line 40, assets\less\event_notice.less */
+/* line 40, assets\less\notice.less */
 .event_notice_page .wrapper .contents div {
   width: 920px;
   margin: 0 auto;
 }
-/* line 43, assets\less\event_notice.less */
+/* line 43, assets\less\notice.less */
 .event_notice_page .wrapper .contents div ul {
   width: 980px;
 }
-/* line 46, assets\less\event_notice.less */
+/* line 46, assets\less\notice.less */
 .event_notice_page .wrapper .contents div ul li img {
   margin-bottom: 25px;
   margin-right: 25px;
   float: left;
 }
-/* line 57, assets\less\event_notice.less */
+/* line 57, assets\less\notice.less */
 .event_notice_page .copyright {
   width: 1240px;
   height: 40px;
   line-height: 40px;
   margin: 0 auto;
 }
-/* line 62, assets\less\event_notice.less */
+/* line 62, assets\less\notice.less */
 .event_notice_page .copyright span {
   float: left;
   color: #ABABAB;
   font-size: 14px;
   margin-left: 30px;
 }
-/* line 68, assets\less\event_notice.less */
+/* line 68, assets\less\notice.less */
 .event_notice_page .copyright span:nth-child(2) {
   margin-left: 542px;
 }
-/* line 71, assets\less\event_notice.less */
+/* line 71, assets\less\notice.less */
 .event_notice_page .copyright span:nth-child(3) {
   margin-left: 50px;
 }
-/* line 73, assets\less\event_notice.less */
+/* line 73, assets\less\notice.less */
 .event_notice_page .copyright span:nth-child(3) img {
   vertical-align: middle;
 }
@@ -4044,53 +4044,72 @@ header .gnb .menu li img {
   padding-top: 63px;
   overflow: hidden;
 }
-/* line 41, assets\less\mypage.less */
-.mypage .wrapper .contents li {
+/* line 42, assets\less\mypage.less */
+.mypage .wrapper .contents .mypage_list li {
   display: inline-block;
   width: 296px;
   height: 183px;
   margin-right: 10px;
 }
-/* line 47, assets\less\mypage.less */
-.mypage .wrapper .contents li span {
+/* line 48, assets\less\mypage.less */
+.mypage .wrapper .contents .mypage_list li span {
   display: block;
   margin: 0 auto;
   font-size: 16px;
   margin-bottom: 20px;
   color: #868686;
 }
-/* line 53, assets\less\mypage.less */
-.mypage .wrapper .contents li span strong {
+/* line 54, assets\less\mypage.less */
+.mypage .wrapper .contents .mypage_list li span strong {
   font-size: 15px;
   color: #231f20;
 }
-/* line 60, assets\less\mypage.less */
-.mypage .wrapper .contents li:last-child {
+/* line 61, assets\less\mypage.less */
+.mypage .wrapper .contents .mypage_list li:last-child {
   margin-right: 0;
 }
 /* line 65, assets\less\mypage.less */
+.mypage .wrapper .contents .related_recipe {
+  width: 100%;
+  margin: 40px 0 0;
+}
+/* line 68, assets\less\mypage.less */
+.mypage .wrapper .contents .related_recipe ul {
+  overflow: hidden;
+}
+/* line 70, assets\less\mypage.less */
+.mypage .wrapper .contents .related_recipe ul li {
+  float: left;
+  width: 20%;
+}
+/* line 73, assets\less\mypage.less */
+.mypage .wrapper .contents .related_recipe ul li img {
+  margin-top: 30px;
+  width: 100%;
+}
+/* line 82, assets\less\mypage.less */
 .mypage .copyright {
   width: 1240px;
   height: 40px;
   line-height: 40px;
   margin: 0 auto;
 }
-/* line 70, assets\less\mypage.less */
+/* line 87, assets\less\mypage.less */
 .mypage .copyright span {
   float: left;
   color: #ABABAB;
   font-size: 14px;
   margin-left: 30px;
 }
-/* line 76, assets\less\mypage.less */
+/* line 93, assets\less\mypage.less */
 .mypage .copyright span:nth-child(2) {
   margin-left: 542px;
 }
-/* line 79, assets\less\mypage.less */
+/* line 96, assets\less\mypage.less */
 .mypage .copyright span:nth-child(3) {
   margin-left: 50px;
 }
-/* line 81, assets\less\mypage.less */
+/* line 98, assets\less\mypage.less */
 .mypage .copyright span:nth-child(3) img {
   vertical-align: middle;
 }
