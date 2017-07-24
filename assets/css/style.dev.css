@@ -113,46 +113,47 @@ header .gnb {
   margin: 0 auto;
 }
 /* line 92, assets\less\common.less */
-header .gnb .logo {
+header .gnb h1 {
   width: 60px;
   height: 51px;
   margin: 25px 75px 0 30px;
+  float: left;
 }
-/* line 96, assets\less\common.less */
-header .gnb .logo img {
+/* line 97, assets\less\common.less */
+header .gnb h1 img {
   width: 80%;
 }
-/* line 100, assets\less\common.less */
+/* line 101, assets\less\common.less */
 header .gnb .site_option {
   margin-top: 39px;
 }
-/* line 102, assets\less\common.less */
+/* line 103, assets\less\common.less */
 header .gnb .site_option img {
   width: 13%;
 }
-/* line 108, assets\less\common.less */
+/* line 109, assets\less\common.less */
 header .gnb .site_option .login {
   margin-left: 24px;
 }
-/* line 111, assets\less\common.less */
+/* line 112, assets\less\common.less */
 header .gnb .site_option .sitemap {
   margin-left: 24px;
 }
-/* line 115, assets\less\common.less */
+/* line 116, assets\less\common.less */
 header .gnb .menu {
   width: 679px;
   margin: 0 auto;
 }
-/* line 118, assets\less\common.less */
+/* line 119, assets\less\common.less */
 header .gnb .menu li {
   float: left;
   margin: 42px 70px 0 0;
 }
-/* line 121, assets\less\common.less */
+/* line 122, assets\less\common.less */
 header .gnb .menu li a {
   font-size: 18px;
 }
-/* line 124, assets\less\common.less */
+/* line 125, assets\less\common.less */
 header .gnb .menu li img {
   width: 80%;
 }
@@ -344,8 +345,8 @@ header .gnb .menu li img {
 .main_page section .section3 .section3_contents ul li img {
   width: 100%;
 }
-/* line 178, assets\less\style.less */
-.main_page section .footer {
+/* line 179, assets\less\style.less */
+.main_page .footer {
   font-family: 'Raleway', sans-serif;
   width: 100%;
   height: 624px;
@@ -355,33 +356,34 @@ header .gnb .menu li img {
   background-color: #24292D;
   position: relative;
 }
-/* line 188, assets\less\style.less */
-.main_page section .footer .footer_sb span {
+/* line 189, assets\less\style.less */
+.main_page .footer .footer_sb span {
+  display: block;
   letter-spacing: 7px;
   font-size: 22px;
   font-weight: 600;
   color: #E5E5E5;
 }
-/* line 193, assets\less\style.less */
-.main_page section .footer .footer_sb span img {
+/* line 195, assets\less\style.less */
+.main_page .footer .footer_sb span img {
   margin: 23px 0 21px;
 }
-/* line 198, assets\less\style.less */
-.main_page section .footer .footer_txt {
+/* line 200, assets\less\style.less */
+.main_page .footer .footer_txt {
   color: #70828E;
   font-size: 15px;
   line-height: 28px;
 }
-/* line 203, assets\less\style.less */
-.main_page section .footer .footer_txt + span {
+/* line 205, assets\less\style.less */
+.main_page .footer .footer_txt + span {
   color: #E5E5E5;
   font-weight: 600;
   display: block;
   margin: 50px 0 30px;
   letter-spacing: 2px;
 }
-/* line 210, assets\less\style.less */
-.main_page section .footer input[type="text"] {
+/* line 212, assets\less\style.less */
+.main_page .footer input[type="text"] {
   width: 299px;
   height: 52px;
   background-color: #fff;
@@ -391,8 +393,8 @@ header .gnb .menu li img {
   padding-left: 20px;
   box-sizing: border-box;
 }
-/* line 220, assets\less\style.less */
-.main_page section .footer input[type="submit"] {
+/* line 222, assets\less\style.less */
+.main_page .footer input[type="submit"] {
   width: 55px;
   height: 52px;
   background-color: #976686;
@@ -402,23 +404,23 @@ header .gnb .menu li img {
   background-repeat: no-repeat;
   background-position: center;
 }
-/* line 231, assets\less\style.less */
-.main_page section .footer .sns img {
+/* line 233, assets\less\style.less */
+.main_page .footer .sns img {
   margin-top: 50px;
   margin-right: 20px;
 }
-/* line 235, assets\less\style.less */
-.main_page section .footer .sns img:last-child {
+/* line 237, assets\less\style.less */
+.main_page .footer .sns img:last-child {
   margin-right: 0;
 }
-/* line 239, assets\less\style.less */
-.main_page section .footer .footer_bottom {
+/* line 241, assets\less\style.less */
+.main_page .footer .footer_bottom {
   position: absolute;
   bottom: 0;
   left: 0;
 }
-/* line 243, assets\less\style.less */
-.main_page section .footer .footer_bottom span {
+/* line 245, assets\less\style.less */
+.main_page .footer .footer_bottom span {
   position: absolute;
   bottom: 36px;
   display: inline-block;
@@ -426,12 +428,12 @@ header .gnb .menu li img {
   font-size: 10px;
   letter-spacing: 3px;
 }
-/* line 251, assets\less\style.less */
-.main_page section .footer .footer_bottom span:nth-child(1) {
+/* line 253, assets\less\style.less */
+.main_page .footer .footer_bottom span:nth-child(1) {
   margin-left: 465px;
 }
-/* line 254, assets\less\style.less */
-.main_page section .footer .footer_bottom span:nth-child(2) {
+/* line 256, assets\less\style.less */
+.main_page .footer .footer_bottom span:nth-child(2) {
   margin-left: 1300px;
 }
 /* line 1, assets\less\recipe1.less */
@@ -4064,52 +4066,56 @@ header .gnb .menu li img {
   font-size: 15px;
   color: #231f20;
 }
-/* line 61, assets\less\mypage.less */
+/* line 59, assets\less\mypage.less */
+.mypage .wrapper .contents .mypage_list li span img {
+  width: 14%;
+}
+/* line 64, assets\less\mypage.less */
 .mypage .wrapper .contents .mypage_list li:last-child {
   margin-right: 0;
 }
-/* line 65, assets\less\mypage.less */
+/* line 68, assets\less\mypage.less */
 .mypage .wrapper .contents .related_recipe {
   width: 100%;
   margin: 40px 0 0;
 }
-/* line 68, assets\less\mypage.less */
+/* line 71, assets\less\mypage.less */
 .mypage .wrapper .contents .related_recipe ul {
   overflow: hidden;
 }
-/* line 70, assets\less\mypage.less */
+/* line 73, assets\less\mypage.less */
 .mypage .wrapper .contents .related_recipe ul li {
   float: left;
   width: 20%;
 }
-/* line 73, assets\less\mypage.less */
+/* line 76, assets\less\mypage.less */
 .mypage .wrapper .contents .related_recipe ul li img {
   margin-top: 30px;
   width: 100%;
 }
-/* line 82, assets\less\mypage.less */
+/* line 85, assets\less\mypage.less */
 .mypage .copyright {
   width: 1240px;
   height: 40px;
   line-height: 40px;
   margin: 0 auto;
 }
-/* line 87, assets\less\mypage.less */
+/* line 90, assets\less\mypage.less */
 .mypage .copyright span {
   float: left;
   color: #ABABAB;
   font-size: 14px;
   margin-left: 30px;
 }
-/* line 93, assets\less\mypage.less */
+/* line 96, assets\less\mypage.less */
 .mypage .copyright span:nth-child(2) {
   margin-left: 542px;
 }
-/* line 96, assets\less\mypage.less */
+/* line 99, assets\less\mypage.less */
 .mypage .copyright span:nth-child(3) {
   margin-left: 50px;
 }
-/* line 98, assets\less\mypage.less */
+/* line 101, assets\less\mypage.less */
 .mypage .copyright span:nth-child(3) img {
   vertical-align: middle;
 }
