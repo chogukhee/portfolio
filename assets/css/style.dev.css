@@ -166,12 +166,17 @@ header .gnb .menu li img {
   position: relative;
   z-index: 10;
 }
-/* line 8, assets\less\style.less */
-.main_page .main img:nth-child(2) {
-  display: none;
+/* line 9, assets\less\style.less */
+.main_page .main .view .main_img_1 {
+  width: 100%;
 }
-/* line 11, assets\less\style.less */
-.main_page .main img:nth-child(3) {
+/* line 12, assets\less\style.less */
+.main_page .main .view .main_img_2 {
+  display: none;
+  width: 100%;
+}
+/* line 17, assets\less\style.less */
+.main_page .main .main_logo {
   width: 233px;
   height: 70px;
   position: absolute;
@@ -181,21 +186,26 @@ header .gnb .menu li img {
   margin-left: -116.5px;
   border-radius: 3px;
 }
-/* line 21, assets\less\style.less */
-.main_page .main img:nth-child(4) {
+/* line 27, assets\less\style.less */
+.main_page .main .prev {
+  background-image: url(../images/source/prev.png);
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 74px;
+  outline: 1px #f00 solid;
   position: absolute;
   z-index: 15;
   top: 50%;
   left: 80px;
 }
-/* line 27, assets\less\style.less */
-.main_page .main img:nth-child(5) {
+/* line 38, assets\less\style.less */
+.main_page .main .next {
   position: absolute;
   z-index: 15;
   top: 50%;
   right: 80px;
 }
-/* line 36, assets\less\style.less */
+/* line 47, assets\less\style.less */
 .main_page section span[class$="_sb"] span {
   font-family: 'Raleway', sans-serif;
   font-weight: 500;
@@ -203,18 +213,18 @@ header .gnb .menu li img {
   font-size: 19px;
   color: #231f20;
 }
-/* line 42, assets\less\style.less */
+/* line 53, assets\less\style.less */
 .main_page section span[class$="_sb"] span img {
   margin: 20px 0 29px;
 }
-/* line 48, assets\less\style.less */
+/* line 59, assets\less\style.less */
 .main_page section span[class$="_txt"] span {
   font-family: 'Raleway', sans-serif;
   color: #868686;
   font-size: 13px;
   line-height: 22px;
 }
-/* line 57, assets\less\style.less */
+/* line 68, assets\less\style.less */
 .main_page section .section1 {
   width: 100%;
   height: 1290px;
@@ -223,17 +233,17 @@ header .gnb .menu li img {
   text-align: center;
   background-color: #f4f5f7;
 }
-/* line 64, assets\less\style.less */
+/* line 75, assets\less\style.less */
 .main_page section .section1 .section1_contents {
   width: 1300px;
   height: 891px;
   margin: 40px auto 0;
 }
-/* line 68, assets\less\style.less */
+/* line 79, assets\less\style.less */
 .main_page section .section1 .section1_contents ul {
   width: 1350px;
 }
-/* line 70, assets\less\style.less */
+/* line 81, assets\less\style.less */
 .main_page section .section1 .section1_contents ul li {
   background-color: #fff;
   width: 300px;
@@ -241,11 +251,11 @@ header .gnb .menu li img {
   float: left;
   margin: 0 33.333px 33.333px 0;
 }
-/* line 76, assets\less\style.less */
+/* line 87, assets\less\style.less */
 .main_page section .section1 .section1_contents ul li:hover .hover_img img {
   display: block;
 }
-/* line 80, assets\less\style.less */
+/* line 91, assets\less\style.less */
 .main_page section .section1 .section1_contents ul li .hover_img img {
   display: none;
   width: 300px;
@@ -253,26 +263,26 @@ header .gnb .menu li img {
   position: absolute;
   margin: 0;
 }
-/* line 90, assets\less\style.less */
+/* line 100, assets\less\style.less */
 .main_page section .section1 .section1_contents ul li a img {
   margin: 0 0 10px;
   width: 300px;
   height: 300px;
 }
-/* line 96, assets\less\style.less */
+/* line 106, assets\less\style.less */
 .main_page section .section1 .section1_contents ul li span {
   display: block;
   font-size: 15px;
   color: #5B5B5B;
   line-height: 25px;
 }
-/* line 101, assets\less\style.less */
+/* line 111, assets\less\style.less */
 .main_page section .section1 .section1_contents ul li span img {
   width: 90px;
   height: 15px;
   margin: 8px 0 5px;
 }
-/* line 109, assets\less\style.less */
+/* line 119, assets\less\style.less */
 .main_page section .section1 .section1_contents .btn_more {
   margin-top: 15px;
   padding: 7px 24px;
@@ -282,12 +292,12 @@ header .gnb .menu li img {
   color: #ADA29F;
   font-size: 13px;
 }
-/* line 118, assets\less\style.less */
+/* line 128, assets\less\style.less */
 .main_page section .section1 .section1_contents .btn_more:hover {
   background-color: #ADA29F;
   color: #FFF;
 }
-/* line 127, assets\less\style.less */
+/* line 137, assets\less\style.less */
 .main_page section .section2 {
   width: 100%;
   height: 600px;
@@ -296,39 +306,41 @@ header .gnb .menu li img {
   text-align: center;
   background-color: #e5e2e3;
 }
-/* line 134, assets\less\style.less */
+/* line 144, assets\less\style.less */
 .main_page section .section2 .section2_contents {
   width: 100%;
   height: 300px;
   margin-top: 40px;
-  margin-left: -100px;
+  overflow: hidden;
 }
-/* line 139, assets\less\style.less */
+/* line 149, assets\less\style.less */
 .main_page section .section2 .section2_contents ul {
   width: 150%;
 }
-/* line 141, assets\less\style.less */
+/* line 151, assets\less\style.less */
 .main_page section .section2 .section2_contents ul li {
   float: left;
-  width: 300px;
-  height: 300px;
+  width: 320px;
+  height: 320px;
+  position: relative;
+  right: 160px;
 }
-/* line 145, assets\less\style.less */
+/* line 157, assets\less\style.less */
 .main_page section .section2 .section2_contents ul li:hover .hover_img img {
   display: block;
 }
-/* line 149, assets\less\style.less */
+/* line 161, assets\less\style.less */
 .main_page section .section2 .section2_contents ul li .hover_img img {
   display: none;
-  width: 300px;
-  height: 300px;
+  width: 320px;
+  height: 320px;
   position: absolute;
 }
-/* line 157, assets\less\style.less */
+/* line 169, assets\less\style.less */
 .main_page section .section2 .section2_contents ul li img {
   width: 100%;
 }
-/* line 164, assets\less\style.less */
+/* line 176, assets\less\style.less */
 .main_page section .section3 {
   display: none;
   width: 100%;
@@ -338,13 +350,13 @@ header .gnb .menu li img {
   text-align: center;
   background-color: #CCC;
 }
-/* line 172, assets\less\style.less */
+/* line 184, assets\less\style.less */
 .main_page section .section3 .section3_contents {
   width: 100%;
   height: 300px;
   margin-top: 10px;
 }
-/* line 177, assets\less\style.less */
+/* line 189, assets\less\style.less */
 .main_page section .section3 .section3_contents ul li {
   outline: 1px #AAA solid;
   display: inline-block;
@@ -352,11 +364,11 @@ header .gnb .menu li img {
   width: 169px;
   height: 240px;
 }
-/* line 183, assets\less\style.less */
+/* line 195, assets\less\style.less */
 .main_page section .section3 .section3_contents ul li img {
   width: 100%;
 }
-/* line 191, assets\less\style.less */
+/* line 203, assets\less\style.less */
 .main_page .footer {
   font-family: 'Raleway', sans-serif;
   width: 100%;
@@ -366,8 +378,9 @@ header .gnb .menu li img {
   text-align: center;
   background-color: #24292D;
   position: relative;
+  overflow: hidden;
 }
-/* line 201, assets\less\style.less */
+/* line 214, assets\less\style.less */
 .main_page .footer .footer_sb span {
   display: block;
   letter-spacing: 7px;
@@ -375,17 +388,17 @@ header .gnb .menu li img {
   font-weight: 600;
   color: #E5E5E5;
 }
-/* line 207, assets\less\style.less */
+/* line 220, assets\less\style.less */
 .main_page .footer .footer_sb span img {
   margin: 23px 0 21px;
 }
-/* line 212, assets\less\style.less */
+/* line 225, assets\less\style.less */
 .main_page .footer .footer_txt {
   color: #70828E;
   font-size: 15px;
   line-height: 28px;
 }
-/* line 217, assets\less\style.less */
+/* line 230, assets\less\style.less */
 .main_page .footer .footer_txt + span {
   color: #E5E5E5;
   font-weight: 600;
@@ -393,7 +406,7 @@ header .gnb .menu li img {
   margin: 50px 0 30px;
   letter-spacing: 2px;
 }
-/* line 224, assets\less\style.less */
+/* line 237, assets\less\style.less */
 .main_page .footer input[type="text"] {
   width: 299px;
   height: 52px;
@@ -404,7 +417,7 @@ header .gnb .menu li img {
   padding-left: 20px;
   box-sizing: border-box;
 }
-/* line 234, assets\less\style.less */
+/* line 247, assets\less\style.less */
 .main_page .footer input[type="submit"] {
   width: 55px;
   height: 52px;
@@ -415,22 +428,26 @@ header .gnb .menu li img {
   background-repeat: no-repeat;
   background-position: center;
 }
-/* line 245, assets\less\style.less */
+/* line 258, assets\less\style.less */
 .main_page .footer .sns img {
   margin-top: 50px;
-  margin-right: 20px;
+  padding-right: 20px;
 }
-/* line 249, assets\less\style.less */
+/* line 262, assets\less\style.less */
 .main_page .footer .sns img:last-child {
   margin-right: 0;
 }
-/* line 253, assets\less\style.less */
+/* line 266, assets\less\style.less */
 .main_page .footer .footer_bottom {
   position: absolute;
   bottom: 0;
   left: 0;
 }
-/* line 257, assets\less\style.less */
+/* line 270, assets\less\style.less */
+.main_page .footer .footer_bottom img {
+  width: 100%;
+}
+/* line 273, assets\less\style.less */
 .main_page .footer .footer_bottom span {
   position: absolute;
   bottom: 36px;
@@ -439,11 +456,11 @@ header .gnb .menu li img {
   font-size: 10px;
   letter-spacing: 3px;
 }
-/* line 265, assets\less\style.less */
+/* line 281, assets\less\style.less */
 .main_page .footer .footer_bottom span:nth-child(1) {
   margin-left: 465px;
 }
-/* line 268, assets\less\style.less */
+/* line 284, assets\less\style.less */
 .main_page .footer .footer_bottom span:nth-child(2) {
   margin-left: 1300px;
 }
@@ -3738,63 +3755,67 @@ header .gnb .menu li img {
   padding: 25px 0;
   box-sizing: border-box;
 }
-/* line 333, assets\less\food_tip1.less */
+/* line 332, assets\less\food_tip1.less */
+.food_tip1_page .contents .bottom_section {
+  clear: both;
+}
+/* line 334, assets\less\food_tip1.less */
 .food_tip1_page .contents .bottom_section .related_recipe {
   width: 100%;
   margin-bottom: 30px;
 }
-/* line 336, assets\less\food_tip1.less */
+/* line 337, assets\less\food_tip1.less */
 .food_tip1_page .contents .bottom_section .related_recipe ul {
   overflow: hidden;
 }
-/* line 338, assets\less\food_tip1.less */
+/* line 339, assets\less\food_tip1.less */
 .food_tip1_page .contents .bottom_section .related_recipe ul li {
   float: left;
   width: 20%;
 }
-/* line 341, assets\less\food_tip1.less */
+/* line 342, assets\less\food_tip1.less */
 .food_tip1_page .contents .bottom_section .related_recipe ul li img {
   width: 100%;
 }
-/* line 348, assets\less\food_tip1.less */
+/* line 349, assets\less\food_tip1.less */
 .food_tip1_page .contents .bottom_section .comment li {
   overflow: hidden;
   margin-bottom: 20px;
 }
-/* line 351, assets\less\food_tip1.less */
+/* line 352, assets\less\food_tip1.less */
 .food_tip1_page .contents .bottom_section .comment li .profile {
   float: left;
   margin-right: 10px;
 }
-/* line 355, assets\less\food_tip1.less */
+/* line 356, assets\less\food_tip1.less */
 .food_tip1_page .contents .bottom_section .comment li span {
   display: block;
   margin-bottom: 3px;
 }
-/* line 358, assets\less\food_tip1.less */
+/* line 359, assets\less\food_tip1.less */
 .food_tip1_page .contents .bottom_section .comment li span img {
   vertical-align: middle;
 }
-/* line 363, assets\less\food_tip1.less */
+/* line 364, assets\less\food_tip1.less */
 .food_tip1_page .contents .bottom_section .comment .re {
   margin-left: 50px;
 }
-/* line 367, assets\less\food_tip1.less */
+/* line 368, assets\less\food_tip1.less */
 .food_tip1_page .contents .bottom_section .paging {
   margin: 0 auto;
   font-size: 12px;
 }
-/* line 371, assets\less\food_tip1.less */
+/* line 372, assets\less\food_tip1.less */
 .food_tip1_page .contents .bottom_section .paging span {
   margin-right: 10px;
   color: ##ABABAB;
 }
-/* line 374, assets\less\food_tip1.less */
+/* line 375, assets\less\food_tip1.less */
 .food_tip1_page .contents .bottom_section .paging span img {
   vertical-align: middle;
 }
 /* line 380, assets\less\food_tip1.less */
-.food_tip1_page .contents .btn_more {
+.food_tip1_page .contents .bottom_section .btn_more {
   margin-top: 15px;
   padding: 7px 24px;
   border-radius: 3px;
@@ -3804,33 +3825,33 @@ header .gnb .menu li img {
   font-size: 13px;
 }
 /* line 389, assets\less\food_tip1.less */
-.food_tip1_page .contents .btn_more:hover {
+.food_tip1_page .contents .bottom_section .btn_more:hover {
   background-color: #ADA29F;
   color: #FFF;
 }
-/* line 395, assets\less\food_tip1.less */
+/* line 396, assets\less\food_tip1.less */
 .food_tip1_page .copyright {
   width: 1240px;
   height: 40px;
   line-height: 40px;
   margin: 0 auto;
 }
-/* line 400, assets\less\food_tip1.less */
+/* line 401, assets\less\food_tip1.less */
 .food_tip1_page .copyright span {
   float: left;
   color: #ABABAB;
   font-size: 14px;
   margin-left: 30px;
 }
-/* line 406, assets\less\food_tip1.less */
+/* line 407, assets\less\food_tip1.less */
 .food_tip1_page .copyright span:nth-child(2) {
   margin-left: 542px;
 }
-/* line 409, assets\less\food_tip1.less */
+/* line 410, assets\less\food_tip1.less */
 .food_tip1_page .copyright span:nth-child(3) {
   margin-left: 50px;
 }
-/* line 411, assets\less\food_tip1.less */
+/* line 412, assets\less\food_tip1.less */
 .food_tip1_page .copyright span:nth-child(3) img {
   vertical-align: middle;
 }
@@ -3888,34 +3909,67 @@ header .gnb .menu li img {
   width: 980px;
 }
 /* line 46, assets\less\notice.less */
-.event_notice_page .wrapper .contents div ul li img {
+.event_notice_page .wrapper .contents div ul li:hover img {
+  opacity: 0.8;
+}
+/* line 49, assets\less\notice.less */
+.event_notice_page .wrapper .contents div ul li:hover span {
+  background-color: #000;
+}
+/* line 52, assets\less\notice.less */
+.event_notice_page .wrapper .contents div ul li span {
+  z-index: 10;
+  position: relative;
   margin-bottom: 25px;
   margin-right: 25px;
   float: left;
+  overflow: hidden;
+  display: block;
 }
-/* line 57, assets\less\notice.less */
+/* line 55, assets\less\notice.less */
+.event_notice_page .wrapper .contents div ul li span:hover:after {
+  display: block;
+}
+/* line 58, assets\less\notice.less */
+.event_notice_page .wrapper .contents div ul li span:after {
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  margin-left: -50px;
+  margin-top: -50px;
+  content: "COOKING+";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 100;
+  color: #FFF;
+  font-size: 20px;
+  display: none;
+}
+/* line 87, assets\less\notice.less */
 .event_notice_page .copyright {
   width: 1240px;
   height: 40px;
   line-height: 40px;
   margin: 0 auto;
 }
-/* line 62, assets\less\notice.less */
+/* line 92, assets\less\notice.less */
 .event_notice_page .copyright span {
   float: left;
   color: #ABABAB;
   font-size: 14px;
   margin-left: 30px;
 }
-/* line 68, assets\less\notice.less */
+/* line 98, assets\less\notice.less */
 .event_notice_page .copyright span:nth-child(2) {
   margin-left: 542px;
 }
-/* line 71, assets\less\notice.less */
+/* line 101, assets\less\notice.less */
 .event_notice_page .copyright span:nth-child(3) {
   margin-left: 50px;
 }
-/* line 73, assets\less\notice.less */
+/* line 103, assets\less\notice.less */
 .event_notice_page .copyright span:nth-child(3) img {
   vertical-align: middle;
 }

@@ -43,10 +43,40 @@
         ul {
           width: 980px;
           li {
-            img {
+            &:hover img{
+              opacity: 0.8;
+            }
+            &:hover span {
+              background-color: #000;
+            }
+            span {
+              position: relative;
+              z-index: 10;
+              &:hover:after {
+                display: block;
+              }
+              &:after {
+                width: 100px;
+                height: 100px;
+                line-height: 100px;
+                text-align: center;
+                margin-left: -50px;
+                margin-top:-50px;
+                content:"COOKING+";
+                position: absolute;
+                left:50%;
+                top:50%;
+                z-index: 100;
+                color:#FFF;
+                font-size:20px;
+                display: none;
+              }
+              position: relative;
               margin-bottom: 25px;
               margin-right: 25px;
               float: left;
+              overflow: hidden;
+              display: block;
             }
           }
         }
