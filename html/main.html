@@ -9,20 +9,6 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
   <script>
-  $(function(){
-    $('.login').click(function(e){
-      e.preventDefault();
-      $('#log').load("popup.html #login_box");
-      $(window).scrollTop(0);
-    })
-
-    $('#log').on('click','.close',function(){
-      // console.log('fkjd;afkj');
-      $('#log').children('#login_box').remove();
-    })
-  })
-
-  //회원가입창
 
 
   $(function(){
@@ -31,6 +17,8 @@
     })
   })
   // 버튼스크립트
+
+
 
   $(function(){
 
@@ -423,6 +411,21 @@
 onclick="this.href=this.href.replace(/referer$/,encodeURIComponent(document.URL))"><img
 src="//validator.kldp.org/w3cimgs/validate/html5-blue.png" alt="Valid HTML 5" height="15" width="80"></a>
 </p> -->
+<script>
+$(function(){
+  $('.login').click(function(e){
+    e.preventDefault();
+    $('#log').load("popup.html #login_box");
+    $(window).scrollTop(0);
+  })
 
+  $('#log').on('click','.close',function(){
+    // console.log('fkjd;afkj');
+    $('#log').children('#login_box').remove();
+  })
+})
+//회원가입창
+
+</script>
 </body>
 </html>
