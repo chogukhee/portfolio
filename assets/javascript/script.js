@@ -2,9 +2,7 @@ $(function(){
   $('.btn_more').click(function(){
     $('.section1_contents_dn').slideDown();
   })
-})
-
-$(function(){
+  // 버튼스크립트
 
   var ww = $('.slide').width();
   var idx = 0;
@@ -48,4 +46,40 @@ $(function(){
       })
     }
   })
+  // 슬라이드
+
+  var aa = $('.section2_contents li').width();
+  var idx = 0;
+
+  $('.section2_next').click(function(){
+    $('.section2_contents li').eq(idx).find('span').animate({
+      left:-aa
+    }).parent().next().find('span').css({
+      'display':'block','left':aa
+    }).animate({
+      'left':0
+    })
+    idx++
+
+    if(idx == $('.slide li').length){
+      idx = 0;
+      $('.slide li').eq(idx).find('div').css({
+        'left':ww
+      }).animate({
+        'left':'0'
+      })
+    }
+  })
+
+  $('.login').click(function(e){
+    e.preventDefault();
+    $('#log').load("popup.html #login_box");
+    $(window).scrollTop(0);
+  })
+
+  $('#log').on('click','.close',function(){
+    // console.log('fkjd;afkj');
+    $('#log').children('#login_box').remove();
+  })
+  //회원가입창
 })
